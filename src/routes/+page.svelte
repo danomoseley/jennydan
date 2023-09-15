@@ -1,3 +1,8 @@
+<svelte:head>
+  <title>Dan & Jenny Are Getting Married! August 17, 2024</title>
+  <meta name="description" content="Dan & Jenny Are Getting Married! August 17, 2024 in Cooperstown, NY." />
+</svelte:head>
+
 <div class="lodging-info">
   <p>
     Lodging in Cooperstown is already quickly filling up for 2024. If you are planning to celebrate with us and need a place to stay during your visit, we urge you to book your accommodations now!
