@@ -23,3 +23,5 @@ yarn-debug.log*
 yarn-error.log*
 
 .svelte-kit
+.wrangler
+wrangler.toml
