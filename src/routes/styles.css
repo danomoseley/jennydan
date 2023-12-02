@@ -14,6 +14,42 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+#content {
+  padding: 0 20px;
+}
+
+a {
+  color: rgb(106,170,222);
+}
+
+.header {
+  display: flex;
+}
+
+.header .left, .header .right {
+  flex: 1;
+}
+
+
+.header .center {
+  display: flex;
+  align-items: center;
+  font-family: 'Bodoni Moda Variable', sans-serif;
+  font-style: italic;
+  font-size: 1.5em;
+  font-weight: 550;
+  color: rgb(30,87,134);
+}
+
+.menu, #content {
+  font-family: 'Montserrat Variable', sans-serif;
+  font-size: 1em;
+  font-weight: 550;
+  color: rgb(30,87,134);
+}
+
+.hamburger
+
 .save-the-date {
   max-height: 98vh;
   max-width:98vw;
@@ -31,4 +67,176 @@ body {
 
 .lodging-info {
   padding: 15px;
+}
+
+img#us {
+  width:100%;
+}
+
+#content {
+  text-align:center;
+}
+
+#content h2 {
+  margin: 15px 0px;
+}
+
+#content hr{
+  width:275px;
+}
+
+#content .button{
+  font-family: 'Bodoni Moda Variable', sans-serif;
+  background-color: rgb(30,87,134);
+  font-style: italic;
+  font-size: 1.5em;
+  font-weight: 550;
+  color: white;
+  width: 100px;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+#schedule ul {
+  padding-inline-start: 0;
+}
+
+#schedule .fancy {
+  font-family: 'Bodoni Moda Variable', sans-serif;
+  font-style: italic;
+  font-size: 1.5em;
+  font-weight: 550;
+  color: rgb(30,87,134);
+}
+
+#schedule li {
+  list-style: none;
+}
+
+#schedule>ul>li {
+  margin-bottom: 20px;
+}
+#schedule>ul>li>ul>li {
+  margin-bottom: 20px;
+}
+
+
+#things-to-do ul {
+  padding-inline-start: 0;
+}
+
+#things-to-do .fancy {
+  font-family: 'Bodoni Moda Variable', sans-serif;
+  font-style: italic;
+  font-size: 1.5em;
+  font-weight: 550;
+  color: rgb(30,87,134);
+}
+
+#things-to-do li {
+  list-style: none;
+}
+
+#things-to-do>ul>li {
+  margin-bottom: 20px;
+}
+#things-to-do>ul>li>ul>li {
+  margin-bottom: 5px;
+}
+
+#faq li {
+  list-style: none;
+}
+#faq ul {
+  padding-inline-start: 0;
+}
+#rsvp ul {
+  margin: 10px auto;
+  max-width:600px;
+  padding: 20px 12px 10px 20px;
+}
+#rsvp li {
+  padding: 0;
+  display: block;
+  list-style: none;
+  margin: 10px 0 0 0;
+}
+#rsvp label {
+  margin: 0 0 3px 0;
+  padding: 0px;
+  display: block;
+}
+
+#rsvp input {
+  width:100%;
+}
+
+#rsvp label {
+  text-align: left;
+}
+
+#rsvp input[type=text], 
+#rsvp input[type=date],
+#rsvp input[type=datetime],
+#rsvp input[type=number],
+#rsvp input[type=search],
+#rsvp input[type=time],
+#rsvp input[type=url],
+#rsvp input[type=email],
+textarea, 
+select{
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border:1px solid #BEBEBE;
+  padding: 7px;
+  margin:0px;
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;  
+}
+#rsvp input[type=text]:focus, 
+#rsvp input[type=date]:focus,
+#rsvp input[type=datetime]:focus,
+#rsvp input[type=number]:focus,
+#rsvp input[type=search]:focus,
+#rsvp input[type=time]:focus,
+#rsvp input[type=url]:focus,
+#rsvp input[type=email]:focus,
+#rsvp textarea:focus, 
+#rsvp select:focus{
+  -moz-box-shadow: 0 0 8px #88D5E9;
+  -webkit-box-shadow: 0 0 8px #88D5E9;
+  box-shadow: 0 0 8px #88D5E9;
+  border: 1px solid #88D5E9;
+}
+#rsvp .field-divided{
+  width: 49%;
+}
+
+#rsvp .field-long{
+  width: 100%;
+}
+#rsvp .field-select{
+  width: 100%;
+}
+#rsvp .field-textarea{
+  height: 100px;
+}
+#rsvp input[type=submit], #rsvp input[type=button]{
+  background: rgb(30,87,134);
+  padding: 8px 15px 8px 15px;
+  border: none;
+  color: #fff;
+}
+#rsvp input[type=submit]:hover, #rsvp input[type=button]:hover{
+  background: rgb(30,87,134);
+  box-shadow:none;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+}
+#rsvp .required{
+  color:red;
 }

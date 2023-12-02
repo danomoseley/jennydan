@@ -1,0 +1,57 @@
+<svelte:head>
+  <title>Dan & Jenny Are Getting Married! August 17, 2024</title>
+  <meta name="description" content="Dan & Jenny Are Getting Married! August 17, 2024 in Cooperstown, NY." />
+</svelte:head>
+
+<div id="faq">
+  <ul>
+    <li>
+      <ul>
+        <li><h3><hr>Are children invited to the wedding?<hr></h3></li>
+        <li>Yes! The more the merrier! Should you wish to arrange for babysitting while you’re in town, please reach out to us for a recommendation.</li>
+      </ul>
+    </li>
+    <li>
+      <ul>
+        <li><h3><hr>What should I wear? <hr></h3></li>
+        <li>We recommend wearing cocktail attire. Please note that there is a fair amount of walking between venues so make sure your shoes are comfortable. The Cocktail hour will be held on a lawn and the Carousel will be open for use during this time. </li>
+      </ul>
+    </li>
+    <li>
+      <ul>
+        <li><h3><hr>What time should I arrive at the Ceremony venue?<hr></h3></li>
+        <li>We’d recommend getting to the venue 15-20 minutes before scheduled start.</li>
+      </ul>
+    </li>
+    <li>
+      <ul>
+        <li><h3><hr> I don’t get around so easily these days, will someone help me get from place to place during the wedding?<hr></h3></li>
+        <li>Yes! For those guests who require some assistance getting around our venues there will be a golf cart shuttle between locations.  </li>
+      </ul>
+    </li>
+    <li>
+      <ul>
+        <li><h3><hr>: Will there be parking at the venue?<hr></h3></li>
+        <li>Yes! Please park in the lot across from the Farmers’ Museum. There will be a sign at the entry.</li>
+      </ul>
+    </li>
+    <li>
+      <ul>
+        <li><h3><hr>Will any transportation be provided?<hr></h3></li>
+        <li>We will be working with a trolly company to arrange for a few stops throughout town at the end of the night. More information to follow.</li>
+      </ul>
+    </li>
+    <li>
+      <ul>
+        <li><h3><hr>Are you registered for gifts?<hr></h3></li>
+        <li>Your presence at our wedding is genuinely the best present we could ask for. If you wish to contribute to the next phase of our lives together, we've set up a fund to start our lives together. More information to follow.</li>
+      </ul>
+    </li>
+    <li>
+      <ul>
+        <li><h3><hr>What happens if it rains?<hr></h3></li>
+        <li>We have a backup Ceremony location at The Farmers’ Museum should there be a storm. We will make sure you are notified should there be any change in schedule.</li>
+      </ul>
+    </li>
+  </ul>
+</div>
