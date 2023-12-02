@@ -8,9 +8,9 @@ import us from '$lib/assets/us.jpg';
 
 <div id="home">
   <img id="us" alt="The project logo" src={us} />
-  <h2>August 17, 2024</h2>
+  <h3>August 17, 2024</h3>
   <hr/>
-  <h2>Cooperstown, NY</h2>
+  <h3>Cooperstown, NY</h3>
   <br/>
   <a href="/rsvp"><div class="button">RSVP</div></a>
 </div>
