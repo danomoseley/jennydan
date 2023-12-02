@@ -45,7 +45,7 @@
     <li>
       <ul>
         <li><h3><hr>Are you registered for gifts?<hr></h3></li>
-        <li>Your presence at our wedding is genuinely the best present we could ask for. If you wish to contribute to the next phase of our lives together, we've set up a fund to start our lives together. More information to follow.</li>
+        <li>Your presence at our wedding is genuinely the best present we could ask for. If you wish to contribute to the next phase of our lives together, we've set up a fund. More information to follow.</li>
       </ul>
     </li>
     <li>
