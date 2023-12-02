@@ -14,7 +14,12 @@
   </p>
   <h3><hr>From New York City<hr></h3>
   <p>
-    The easiest way to get from NYC to Cooperstown is by car or by taking Amtrak to Albany-Rensselaer and then renting a car.  By Car - Depending on traffic, the drive from Manhattan to Cooperstown can take anywhere from 3.5hrs to 4hrs. It’s a pretty easy drive, so put on your favorite audiobook or podcast and enjoy the drive. By Train - There are multiple trains to/from Moynahan Train Station to Albany-Rensselaer each day. The train is about 2.5hrs each way and has a beautiful view along the Hudson River through the Catskill Mountains. Once you arrive in Albany, take an Uber or taxi to the nearest rental car agency and hit the road west. The drive from Albany is about 1hr and 20min. Pro tip: book your tickets early for the lowest costs, and if you’re taking the Amtrak north, be sure to get a seat on the left side of the train to enjoy the best views!
+    The easiest way to get from NYC to Cooperstown is by car or by taking Amtrak to Albany-Rensselaer and then renting a car.
+  <p>
+    By Car - Depending on traffic, the drive from Manhattan to Cooperstown can take anywhere from 3.5hrs to 4hrs. It’s a pretty easy drive, so put on your favorite audiobook or podcast and enjoy the ride.
+  </p>
+  <p>
+    By Train - There are multiple trains to/from Moynahan Train Station to Albany-Rensselaer each day. The train is about 2.5hrs each way and has a beautiful view along the Hudson River through the Catskill Mountains. Once you arrive in Albany there is an Enterprise car rental at the station. The drive from Albany is about 1hr and 20min. Pro tip: book your tickets early for the lowest costs, and if you’re taking the Amtrak north, be sure to get a seat on the left side of the train to enjoy the best views!
   </p>
   <h3><hr>Village Trolley<hr></h3>
   <p>
