@@ -36,10 +36,7 @@
         text-decoration: underline;
     }
     .bar {
-        border-style: solid;
-        border-color: rgb(30,87,134);
-        border-width: 1px;
-        margin: 0px 10px;
+        border-top: 1px solid rgb(30,87,134);
         height: 0;
     }
     a {
