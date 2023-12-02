@@ -14,15 +14,30 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+body {
+  background-color: rgb(30,87,134);
+}
+
+#container {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
 #content {
   padding: 0 20px;
+}
+
+hr {
+  border-top: 1px solid rgb(30,87,134);
 }
 
 #content h2 {
   font-family: 'Bodoni Moda Variable', sans-serif;
   font-style: italic;
   font-weight: 550;
-  border-bottom: 1px solid rgb(106,170,222);
+  border-bottom: 1px solid rgb(30,87,134);
   font-size: 2em;
   padding-bottom: 15px;
 }
@@ -31,17 +46,17 @@ a {
   color: rgb(106,170,222);
 }
 
-.header {
+#header {
   display: flex;
-  border-bottom: 1px solid rgb(106,170,222);
+  border-bottom: 1px solid rgb(30,87,134);
 }
 
-.header .left, .header .right {
+#header .left, #header .right {
   flex: 1;
 }
 
 
-.header .center {
+#header .center {
   display: flex;
   align-items: center;
   font-family: 'Bodoni Moda Variable', sans-serif;
