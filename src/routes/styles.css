@@ -144,6 +144,21 @@ img#us {
   margin-bottom: 5px;
 }
 
+#accommodations ul {
+  padding-inline-start: 0;
+}
+
+#accommodations li {
+  list-style: none;
+}
+
+#accommodations>ul>li {
+  margin-bottom: 20px;
+}
+#accommodations>ul>li>ul>li {
+  margin-bottom: 5px;
+}
+
 #faq li {
   list-style: none;
 }
