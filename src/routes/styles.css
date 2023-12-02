@@ -69,8 +69,6 @@ a {
   color: rgb(30,87,134);
 }
 
-.hamburger
-
 .save-the-date {
   max-height: 98vh;
   max-width:98vw;
@@ -103,7 +101,7 @@ img#us {
 }
 
 #content hr{
-  width:275px;
+  width:100%;
 }
 
 #content .button{
