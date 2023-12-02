@@ -62,6 +62,11 @@ a {
   color: rgb(30,87,134);
 }
 
+#header a {
+  color: rgb(30,87,134);
+  text-decoration: none;
+}
+
 .menu, #content {
   font-family: 'Montserrat Variable', sans-serif;
   font-size: 1em;

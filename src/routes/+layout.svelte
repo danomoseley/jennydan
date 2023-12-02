@@ -12,7 +12,7 @@
       <Hamburger bind:open --color="rgb(30,87,134)" />
     </div>
     <div class="center">
-      Jenny & Dan
+      <a href="/">Jenny & Dan</a>
     </div>
     <div class="right">
     </div>
