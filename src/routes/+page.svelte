@@ -7,7 +7,7 @@ import us from '$lib/assets/us.jpg';
 </script>
 
 <div id="home">
-  <img id="us" alt="The project logo" src={us} />
+  <img id="us" alt="Jenny and Dan engagement photo at Watervale beach" src={us} />
   <h3>August 17, 2024</h3>
   <hr/>
   <h3>Cooperstown, NY</h3>
