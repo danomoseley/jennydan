@@ -4,7 +4,7 @@
 </svelte:head>
 
 <div class="travel-info">
-  <h2><hr>Getting to Cooperstown<hr></h2>
+  <h2>Getting to Cooperstown</h2>
   <p>
     For those of you who are unfamiliar with where Cooperstown is located or how to get here, we’ve put together some basic information to make your trip a little easier. As strange as it might sound, Cooperstown has not entered the Uber/Lyft era and taxis are few and far between. We’d strongly recommend that regardless of how you arrive, you have your own form of transportation to explore the surrounding area and to get to/from restaurants, lodging, airports.
   </p>

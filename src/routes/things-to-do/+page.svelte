@@ -4,13 +4,14 @@
 </svelte:head>
 
 <div id="things-to-do">
-  <h2><hr>The Lake<hr></h2>
+  <h2>Things To Do</h2>
+  <h3>The Lake<hr></h3>
   <p>
     You can’t experience the true wonder of Cooperstown without experiencing Otsego Lake. August is a great time to get out on the water and enjoy the surrounding nature so we’ve put together a list of a few of our favorite lake activities.
   </p>
   <ul>
     <li>
-      <h3>Swimming</h3>
+      <h4>Swimming</h4>
     </li>
     <li>
       <ul>
@@ -20,7 +21,7 @@
       </ul>
     </li>
     <li>
-      <h3>Kayaking</h3>
+      <h4>Kayaking</h4>
     </li>
     <li>
       <ul>
@@ -31,7 +32,7 @@
       </ul>
     </li>
     <li>
-      <h3>Boating</h3>
+      <h4>Boating</h4>
     </li>
     <li>
       <ul>
@@ -40,7 +41,7 @@
       </ul>
     </li>
     <li>
-      <h3>Views</h3>
+      <h4>Views</h4>
     </li>
     <li>
       <ul>
@@ -50,7 +51,7 @@
       </ul>
     </li>
     <li>
-      <h3>Golf</h3>
+      <h4>Golf</h4>
     </li>
     <li>
       <ul>
@@ -59,7 +60,7 @@
       </ul>
     </li>
   </ul>
-  <h2><hr>Hiking<hr></h2>
+  <h3><hr>Hiking<hr></h3>
   <p>
     There are a few short trails around Cooperstown that offer great views of the lake. Download the AllTrails App on your phone for the most accurate trail information. 
   </p>
@@ -74,7 +75,7 @@
       </ul>
     </li>
   </ul>
-  <h2><hr>Food & Beverage<hr></h2>
+  <h3><hr>Food & Beverage<hr></h3>
   <p>
     Cooperstown has a variety of great restaurants and breweries. Here are our favorites! 
   </p>
@@ -94,7 +95,7 @@
       </ul>
     </li>
   </ul>
-  <h2><hr>Culture<hr></h2>
+  <h3><hr>Culture<hr></h3>
   <p>
     Our village is home to a great selection of cultural institutions.
   </p>

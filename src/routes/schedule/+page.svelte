@@ -4,11 +4,12 @@
 </svelte:head>
 
 <div id="schedule">
+  <h2>Schedule</h2>
   <ul>
     <li>
       <ul>
         <li>
-          <h2><hr>Friday August 16, 2024<hr></h2></li>
+          <h3>Friday August 16, 2024<hr></h3></li>
         <li>
           <ul>
             <li class="fancy">Welcome Meet-Up</li>
@@ -22,7 +23,7 @@
     <li>
       <ul>
         <li>
-          <h2><hr>Saturday August 17, 2024<hr></h2>
+          <h3><hr>Saturday August 17, 2024<hr></h3>
         </li>
         <li>
           <ul>
@@ -55,7 +56,7 @@
     <li>
       <ul>
         <li>
-          <h2><hr>Sunday August 18, 2024<hr></h2>
+          <h3><hr>Sunday August 18, 2024<hr></h3>
         </li>
         <li>
           <ul>

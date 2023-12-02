@@ -18,12 +18,22 @@ body {
   padding: 0 20px;
 }
 
+#content h2 {
+  font-family: 'Bodoni Moda Variable', sans-serif;
+  font-style: italic;
+  font-weight: 550;
+  border-bottom: 1px solid rgb(106,170,222);
+  font-size: 2em;
+  padding-bottom: 15px;
+}
+
 a {
   color: rgb(106,170,222);
 }
 
 .header {
   display: flex;
+  border-bottom: 1px solid rgb(106,170,222);
 }
 
 .header .left, .header .right {

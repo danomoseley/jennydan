@@ -4,10 +4,11 @@
 </svelte:head>
 
 <div id="faq">
+  <h2>Frequently Asked Questions</h2>
   <ul>
     <li>
       <ul>
-        <li><h3><hr>Are children invited to the wedding?<hr></h3></li>
+        <li><h3>Are children invited to the wedding?<hr></h3></li>
         <li>Yes! The more the merrier! Should you wish to arrange for babysitting while you’re in town, please reach out to us for a recommendation.</li>
       </ul>
     </li>
@@ -25,13 +26,13 @@
     </li>
     <li>
       <ul>
-        <li><h3><hr> I don’t get around so easily these days, will someone help me get from place to place during the wedding?<hr></h3></li>
+        <li><h3><hr>I don’t get around so easily these days, will someone help me get from place to place during the wedding?<hr></h3></li>
         <li>Yes! For those guests who require some assistance getting around our venues there will be a golf cart shuttle between locations.  </li>
       </ul>
     </li>
     <li>
       <ul>
-        <li><h3><hr>: Will there be parking at the venue?<hr></h3></li>
+        <li><h3><hr>Will there be parking at the venue?<hr></h3></li>
         <li>Yes! Please park in the lot across from the Farmers’ Museum. There will be a sign at the entry.</li>
       </ul>
     </li>

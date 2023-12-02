@@ -10,6 +10,7 @@
   const { allErrors, constraints, enhance, errors, form, message } = superForm(data.form);
 </script>
 <div id="rsvp">
+  <h2>RSVP</h2>
   {#if $message}
     <div class="message">{$message}</div>
   {:else}
