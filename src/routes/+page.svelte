@@ -12,7 +12,6 @@ import us from '$lib/assets/us.jpg';
     Jenny Stafford and Dan Moseley are getting married! August 17, 2024 in Cooperstown, NY. We hope that you can join us!
   </p>
   <img id="us" alt="Jenny and Dan engagement photo at Watervale beach" src={us} />
-  <p>
-    <a class="button" href="/rsvp"><div>RSVP</div></a>
-  </p>
+<br/><br/>
+  <a href="/rsvp"><div class="button">RSVP</div></a>
 </div>
