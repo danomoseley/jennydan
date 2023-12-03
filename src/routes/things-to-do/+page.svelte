@@ -1,6 +1,6 @@
 <svelte:head>
-  <title>Dan & Jenny Are Getting Married! August 17, 2024</title>
-  <meta name="description" content="Dan & Jenny Are Getting Married! August 17, 2024 in Cooperstown, NY." />
+  <title>Things To Do</title>
+  <meta name="description" content="Some things that we love about Cooperstown and that you might be interested in doing while you're here." />
 </svelte:head>
 
 <div id="things-to-do">
