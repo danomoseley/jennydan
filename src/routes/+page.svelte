@@ -13,6 +13,6 @@ import us from '$lib/assets/us.jpg';
   </p>
   <img id="us" alt="Jenny and Dan engagement photo at Watervale beach" src={us} />
   <p>
-    <a href="/rsvp"><div class="button">RSVP</div></a>
+    <a class="button" href="/rsvp"><div>RSVP</div></a>
   </p>
 </div>
