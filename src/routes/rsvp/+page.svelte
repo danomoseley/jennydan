@@ -97,7 +97,7 @@
                     name="num_attending"
                     type="number"
                     bind:value={$form.num_attending}
-                    on:change={numAttendingChanged}
+                    on:keyup={numAttendingChanged}
                     {...$constraints.num_attending} />
                 {#if $errors.num_attending}<br/><span class="invalid">{$errors.num_attending}</span>{/if}
               </li>
