@@ -7,7 +7,26 @@ const rsvpSchema = z.object({
   email: z.string().trim().email().min(1),
   first_name: z.string().trim().min(1),
   last_name: z.string().trim().min(1),
-  num_attending: z.coerce.number().positive().default(null)
+  attending: z.boolean().default(true),
+  num_attending: z.union([z.coerce.number().int().positive(), z.nan()]).optional(),
+  guest_names: z.string().optional(),
+  dietary_restrictions: z.string().optional()
+}).superRefine(({ attending, num_attending, guest_names }, refinementContext) => {
+    if (attending) {
+        if ( !num_attending ) {
+            return refinementContext.addIssue({
+                code: z.ZodIssueCode.custom,
+                message: 'This field is required',
+                path: ['num_attending']
+            })
+        } else if ( num_attending > 1 && !guest_names) {
+            return refinementContext.addIssue({
+                code: z.ZodIssueCode.custom,
+                message: 'Please provide additional guest names',
+                path: ['guest_names']
+            })
+        }
+    }
 });
 
 export const load = (async () => {
@@ -30,8 +49,8 @@ export const actions = {
         }
 
         result = await platform.env.DB.prepare(
-            "INSERT INTO rsvp (email, first_name, last_name, num_attending) VALUES (?1, ?2, ?3, ?4)"
-        ).bind(form.data.email, form.data.first_name, form.data.last_name, form.data.num_attending).run();
+            "INSERT INTO rsvp (attending, email, first_name, last_name, num_attending, guest_names, dietary_restrictions) VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7)"
+        ).bind(+ form.data.attending, form.data.email, form.data.first_name, form.data.last_name, form.data.num_attending ?? null, form.data.guest_names ?? null, form.data.dietary_restrictions ?? null).run();
         return message(form, 'Thank you for RSVPing!');
     }
 };
