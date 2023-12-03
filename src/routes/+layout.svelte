@@ -17,7 +17,6 @@
     <div class="right">
     </div>
   </div>
-
   <Menu bind:open />
   <div id="content">
     <slot></slot>

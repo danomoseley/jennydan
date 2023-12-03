@@ -3,7 +3,7 @@
   <meta name="description" content="Dan & Jenny Are Getting Married! August 17, 2024 in Cooperstown, NY." />
 </svelte:head>
 <script>
-import us from '$lib/assets/us.jpg';
+  import us from '$lib/assets/us.jpg';
 </script>
 
 <div id="home">
