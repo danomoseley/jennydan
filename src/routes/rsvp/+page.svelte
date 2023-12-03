@@ -91,7 +91,7 @@
             {#if $errors.num_attending}<br/><span class="invalid">{$errors.num_attending}</span>{/if}
           </li>
           <li {hidden}>
-            <label for="guest_names">Guest Names</label>
+            <label for="guest_names">Additional Guest Names</label>
             <textarea
                 name="guest_names"
                 aria-invalid={$errors.guest_names ? 'true' : undefined}
