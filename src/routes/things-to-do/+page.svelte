@@ -62,13 +62,13 @@
   </ul>
   <h3><hr>Hiking<hr></h3>
   <p>
-    There are a few short trails around Cooperstown that offer great views of the lake. Download the AllTrails App on your phone for the most accurate trail information. 
+    Cooperstown has beautiful surrounding area and there are a few short scenic hikes around. Download the AllTrails App on your phons for the most accurate trail information. 
   </p>
   <ul>
     <li>
       <ul>
         <li><a target="_blank" href="https://www.alltrails.com/trail/us/new-york/clark-tower-trail">Clark Tower Trail</a></li>
-        <li><a target="_blank" href="https://www.alltrails.com/trail/us/new-york/natty-bumppo-s-cave">TNatty Bumpo’s Cave</a></li>
+        <li><a target="_blank" href="https://www.alltrails.com/trail/us/new-york/natty-bumppo-s-cave">Natty Bumppo’s Cave</a></li>
         <li><a target="_blank" href="https://www.alltrails.com/trail/us/new-york/owen-d-young-nature-trail--2">Owen D Young Nature Trail</a></li>
         <li><a target="_blank" href="https://www.alltrails.com/trail/us/new-york/star-field-trail">Star Field</a></li>
         <li><a target="_blank" href="https://www.alltrails.com/trail/us/new-york/sleeping-lion-trail">Sleeping Lion Trail</a></li>
