@@ -119,6 +119,7 @@ img#us {
   width: 100px;
   display: inline-block;
   padding: 10px 20px;
+  text-decoration: none;
 }
 
 #schedule ul {
