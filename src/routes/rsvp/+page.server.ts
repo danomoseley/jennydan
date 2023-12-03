@@ -13,7 +13,7 @@ const rsvpSchema = z.object({
   dietary_restrictions: z.string().optional()
 }).superRefine(({ attending, num_attending, guest_names }, refinementContext) => {
     if (attending) {
-        if ( !num_attending ) {
+        if ( !num_attending && num_attending !== 0 ) {
             return refinementContext.addIssue({
                 code: z.ZodIssueCode.custom,
                 message: 'This field is required',
