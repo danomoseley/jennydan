@@ -8,9 +8,17 @@
   import { superForm } from 'sveltekit-superforms/client';
   export let data: PageData;
   const { allErrors, constraints, enhance, errors, form, message } = superForm(data.form);
-  let hidden = false;
+  let extendedHidden = false;
+  let additionalGuestsHidden = true;
   function toggleHidden() {
-    hidden = !hidden;
+    extendedHidden = !extendedHidden;
+  }
+  function numAttendingChanged() {
+    if (event.currentTarget.value > 1) {
+      additionalGuestsHidden = false;
+    } else {
+      additionalGuestsHidden = true;
+    }
   }
 </script>
 <div id="rsvp">
@@ -81,32 +89,37 @@
             </div>
             {#if $errors.attending}<span class="invalid">{$errors.attending}</span>{/if}
           </li>
-          <li {hidden}>
-            <label for="num_attending">Number Attending</label>
-            <input
-                name="num_attending"
-                type="number"
-                bind:value={$form.num_attending}
-                {...$constraints.num_attending} />
-            {#if $errors.num_attending}<br/><span class="invalid">{$errors.num_attending}</span>{/if}
-          </li>
-          <li {hidden}>
-            <label for="guest_names">Additional Guest Names</label>
-            <textarea
-                name="guest_names"
-                aria-invalid={$errors.guest_names ? 'true' : undefined}
-                bind:value={$form.guest_names}
-                {...$constraints.guest_names} />
-            {#if $errors.guest_names}<br/><span class="invalid">{$errors.guest_names}</span>{/if}
-          </li>
-          <li {hidden}>
-            <label for="dietary_restrictions">Dietary Restrictions</label>
-            <textarea
-                name="dietary_restrictions"
-                aria-invalid={$errors.dietary_restrictions ? 'true' : undefined}
-                bind:value={$form.dietary_restrictions}
-                {...$constraints.dietary_restrictions} />
-            {#if $errors.dietary_restrictions}<br/><span class="invalid">{$errors.dietary_restrictions}</span>{/if}
+          <li hidden={extendedHidden}>
+            <ul>
+              <li>
+                <label for="num_attending">Number Attending</label>
+                <input
+                    name="num_attending"
+                    type="number"
+                    bind:value={$form.num_attending}
+                    on:change={numAttendingChanged}
+                    {...$constraints.num_attending} />
+                {#if $errors.num_attending}<br/><span class="invalid">{$errors.num_attending}</span>{/if}
+              </li>
+              <li hidden={additionalGuestsHidden}>
+                <label for="guest_names">Additional Guest Names</label>
+                <textarea
+                    name="guest_names"
+                    aria-invalid={$errors.guest_names ? 'true' : undefined}
+                    bind:value={$form.guest_names}
+                    {...$constraints.guest_names} />
+                {#if $errors.guest_names}<br/><span class="invalid">{$errors.guest_names}</span>{/if}
+              </li>
+              <li>
+                <label for="dietary_restrictions">Dietary Restrictions</label>
+                <textarea
+                    name="dietary_restrictions"
+                    aria-invalid={$errors.dietary_restrictions ? 'true' : undefined}
+                    bind:value={$form.dietary_restrictions}
+                    {...$constraints.dietary_restrictions} />
+                {#if $errors.dietary_restrictions}<br/><span class="invalid">{$errors.dietary_restrictions}</span>{/if}
+              </li>
+            </ul>
           </li>
           <li>
             <input class="button" type="submit" value="Submit">
