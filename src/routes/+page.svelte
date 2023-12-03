@@ -7,6 +7,10 @@ import us from '$lib/assets/us.jpg';
 </script>
 
 <div id="home">
+  <h2>Welcome</h2>
+  <p>
+    Jenny Stafford and Dan Moseley are getting married! We hope that you can join us.
+  </p>
   <img id="us" alt="Jenny and Dan engagement photo at Watervale beach" src={us} />
   <h3>August 17, 2024</h3>
   <hr/>
