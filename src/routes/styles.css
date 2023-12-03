@@ -134,6 +134,10 @@ ul.pad-bottom-items-small>li {
   text-align: left;
 }
 
+#rsvp .required{
+  color:red;
+}
+
 #rsvp input[type=text], 
 #rsvp input[type=date],
 #rsvp input[type=datetime],
@@ -157,6 +161,7 @@ select{
   -o-transition: all 0.30s ease-in-out;
   outline: none;  
 }
+
 #rsvp input[type=text]:focus, 
 #rsvp input[type=date]:focus,
 #rsvp input[type=datetime]:focus,
@@ -171,25 +176,4 @@ select{
   -webkit-box-shadow: 0 0 8px #88D5E9;
   box-shadow: 0 0 8px #88D5E9;
   border: 1px solid #88D5E9;
-}
-#rsvp .field-divided{
-  width: 49%;
-}
-
-#rsvp .field-long{
-  width: 100%;
-}
-#rsvp .field-select{
-  width: 100%;
-}
-#rsvp .field-textarea{
-  height: 100px;
-}
-#rsvp .input-span, #rsvp .label-span {
-  float: left;
-  margin-left: 15px;
-}
-
-#rsvp .required{
-  color:red;
 }
