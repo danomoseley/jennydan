@@ -18,16 +18,6 @@
   {#if $message}
     <div class="message">{$message}</div>
   {:else}
-      {#if $allErrors.length}
-        <ul>
-          {#each $allErrors as error}
-            <li>
-              <b>{error.path}:</b>
-              {error.messages.join('. ')}
-            </li>
-          {/each}
-        </ul>
-      {/if}
       <form method="POST" use:enhance>
         <ul>
           <li>
