@@ -1,5 +1,5 @@
 <svelte:head>
-  <title>RSVP</title>
+  <title>RSVP - Jenny & Dan</title>
   <meta name="description" content="Let us know if you think you will attend our wedding to help us in planning." />
 </svelte:head>
 

@@ -1,5 +1,5 @@
 <svelte:head>
-  <title>Accommodations</title>
+  <title>Accommodations - Jenny & Dan</title>
   <meta name="description" content="Lodging in Cooperstown is already quickly filling up for 2024. If you are planning to celebrate with us and need a place to stay during your visit, we urge you to book your accommodations now!" />
 </svelte:head>
 

@@ -1,5 +1,5 @@
 <svelte:head>
-  <title>Getting To Cooperstown</title>
+  <title>Getting To Cooperstown - Jenny & Dan</title>
   <meta name="description" content="For those of you who are unfamiliar with where Cooperstown is located or how to get here, we’ve put together some basic information to make your trip a little easier." />
 </svelte:head>
 

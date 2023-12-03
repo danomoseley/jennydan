@@ -1,5 +1,5 @@
 <svelte:head>
-  <title>Schedule</title>
+  <title>Schedule - Jenny & Dan</title>
   <meta name="description" content="Everything you need to know about the schedule of events for our wedding weekend." />
 </svelte:head>
 

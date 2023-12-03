@@ -1,5 +1,5 @@
 <svelte:head>
-  <title>Things To Do</title>
+  <title>Things To Do - Jenny & Dan</title>
   <meta name="description" content="Some things that we love about Cooperstown and that you might be interested in doing while you're here." />
 </svelte:head>
 

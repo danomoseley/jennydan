@@ -1,5 +1,5 @@
 <svelte:head>
-  <title>Frequently Asked Questions</title>
+  <title>Frequently Asked Questions - Jenny & Dan</title>
   <meta name="description" content="Prepare for our wedding celebration with our frequently asked questions page. Find answers to all your questions, from venue details to schedule insights." />
 </svelte:head>
 
