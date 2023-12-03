@@ -6,9 +6,6 @@
 <div id="accommodations">
   <h2>Accommodations</h2>
   <p>
-    For those of you who are unfamiliar with where Cooperstown is located or how to get here, we’ve put together some basic information to make your trip a little easier. As strange as it might sound, Cooperstown has not entered the Uber/Lyft era and taxis are few and far between. We’d strongly recommend that regardless of how you arrive, you have your own form of transportation to explore the surrounding area and to get to/from restaurants, lodging, airports.
-  </p>
-  <p>
     Lodging in Cooperstown is already quickly filling up for 2024. If you are planning to celebrate with us and need a place to stay during your visit, we urge you to book your accommodations now!
   </p>
   <p>
