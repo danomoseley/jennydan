@@ -1,6 +1,6 @@
 <svelte:head>
   <title>Frequently Asked Questions</title>
-  <meta name="description" content=""Prepare for our wedding celebration with our frequently asked questions page. Find answers to all your questions, from venue details to schedule insights." />
+  <meta name="description" content="Prepare for our wedding celebration with our frequently asked questions page. Find answers to all your questions, from venue details to schedule insights." />
 </svelte:head>
 
 <div id="faq">
