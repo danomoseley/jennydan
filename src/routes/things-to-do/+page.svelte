@@ -9,12 +9,12 @@
   <p>
     You can’t experience the true wonder of Cooperstown without experiencing Otsego Lake. August is a great time to get out on the water and enjoy the surrounding nature so we’ve put together a list of a few of our favorite lake activities.
   </p>
-  <ul>
+  <ul class="pad-bottom-items">
     <li>
       <h4>Swimming</h4>
     </li>
     <li>
-      <ul>
+      <ul class="pad-bottom-items-small">
         <li><a target="_blank" href="https://parks.ny.gov/parks/glimmerglass/details.aspx">Glimmerglass State Park</a></li>
         <li><a target="_blank" href="https://www.thisiscooperstown.com/single-listing?id=375">Three Mile Point</a></li>
         <li><a target="_blank" href="https://www.thisiscooperstown.com/single-listing?id=409">Fairy Springs Park</a></li>
@@ -24,7 +24,7 @@
       <h4>Kayaking</h4>
     </li>
     <li>
-      <ul>
+      <ul class="pad-bottom-items-small">
         <li><a target="_blank" href="https://canoeandkayakrentals.com/rentals/">Brookwood Point</a></li>
         <li><a target="_blank" href="https://canoeandkayakrentals.com/rentals/">Glimmerglass State Park</a></li>
         <li><a target="_blank" href="https://sam-smiths.checkfront.com/reserve/">Sam Smith's Boatyard</a></li>
@@ -35,7 +35,7 @@
       <h4>Boating</h4>
     </li>
     <li>
-      <ul>
+      <ul class="pad-bottom-items-small">
         <li><a target="_blank" href="https://sam-smiths.checkfront.com/reserve/">Sam Smith's Boatyard</a></li>
         <li><a target="_blank" href="https://www.cooperstownlakefronthotel.com/boat-rentals">Lakefront Hotel</a></li>
       </ul>
@@ -44,7 +44,7 @@
       <h4>Views</h4>
     </li>
     <li>
-      <ul>
+      <ul class="pad-bottom-items-small">
         <li><a target="_blank" href="https://www.thisiscooperstown.com/single-listing?id=453">Lakefront Park</a></li>
         <li><a target="_blank" href="https://www.thisiscooperstown.com/single-listing?id=511">Brookwood Point Park</a></li>
         <li><a target="_blank" href="https://www.otesaga.com/">The Lakefront Porch at The Otesaga</a></li>
@@ -54,7 +54,7 @@
       <h4>Golf</h4>
     </li>
     <li>
-      <ul>
+      <ul class="pad-bottom-items-small">
         <li><a target="_blank" href="https://www.otesaga.com/golf">Leatherstocking Golf Course</a></li>
         <li><a target="_blank" href="https://www.otsegogolfclub.com/">Otsego Golf Course</a></li>
       </ul>
@@ -66,7 +66,7 @@
   </p>
   <ul>
     <li>
-      <ul>
+      <ul class="pad-bottom-items-small">
         <li><a target="_blank" href="https://www.alltrails.com/trail/us/new-york/clark-tower-trail">Clark Tower Trail</a></li>
         <li><a target="_blank" href="https://www.alltrails.com/trail/us/new-york/natty-bumppo-s-cave">Natty Bumppo’s Cave</a></li>
         <li><a target="_blank" href="https://www.alltrails.com/trail/us/new-york/owen-d-young-nature-trail--2">Owen D Young Nature Trail</a></li>
@@ -81,7 +81,7 @@
   </p>
   <ul>
     <li>
-      <ul>
+      <ul class="pad-bottom-items-small">
         <li><a target="_blank" href="https://www.instagram.com/norbuotsego/">Norbu</a></li>
         <li><a target="_blank" href="https://originscafe.org/">Origin's Cafe</a></li>
         <li><a target="_blank" href="https://www.melsat22.com/">Mel's at 22</a></li>
@@ -101,7 +101,7 @@
   </p>
   <ul>
     <li>
-      <ul>
+      <ul class="pad-bottom-items-small">
         <li><a target="_blank" href="https://fenimoreartmuseum.org/">The Fenimore Art Museum</a></li>
         <li><a target="_blank" href="https://www.farmersmuseum.org/">The Farmers’ Museum</a></li>
         <li><a target="_blank" href="https://glimmerglass.org/">Glimmerglass Opera</a></li>

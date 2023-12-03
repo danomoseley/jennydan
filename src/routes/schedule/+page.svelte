@@ -5,7 +5,7 @@
 
 <div id="schedule">
   <h2>Schedule</h2>
-  <ul>
+  <ul class="pad-bottom-items">
     <li>
       <ul>
         <li>
@@ -21,7 +21,7 @@
       </ul>
     </li>
     <li>
-      <ul>
+      <ul class="pad-bottom-items">
         <li>
           <h3><hr>Saturday August 17, 2024<hr></h3>
         </li>

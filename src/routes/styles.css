@@ -1,17 +1,22 @@
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+hr {
+  border-top: 1px solid rgb(30,87,134);
+}
+
+a {
+  color: rgb(106,170,222);
+}
+
+.fancy {
+  font-family: 'Bodoni Moda Variable', sans-serif;
+  font-style: italic;
+  font-size: 1.5em;
+  font-weight: 550;
+  color: rgb(30,87,134);
 }
 
 #container {
@@ -19,27 +24,6 @@ body {
   margin-left: auto;
   margin-right: auto;
   min-height: 100%;
-}
-
-#content {
-  padding: 0px 20px 20px 20px;
-}
-
-hr {
-  border-top: 1px solid rgb(30,87,134);
-}
-
-#content h2 {
-  font-family: 'Bodoni Moda Variable', sans-serif;
-  font-style: italic;
-  font-weight: 550;
-  border-bottom: 1px solid rgb(30,87,134);
-  font-size: 2em;
-  padding-bottom: 15px;
-}
-
-a {
-  color: rgb(106,170,222);
 }
 
 #header {
@@ -50,8 +34,7 @@ a {
   flex: 1;
 }
 
-
-#header .center {
+#header .logo {
   display: flex;
   align-items: center;
   font-family: 'Bodoni Moda Variable', sans-serif;
@@ -66,41 +49,18 @@ a {
   text-decoration: none;
 }
 
-.menu, #content {
-  font-family: 'Montserrat Variable', sans-serif;
-  font-size: 1em;
-  font-weight: 550;
-  color: rgb(30,87,134);
-}
-
-.save-the-date {
-  max-height: 98vh;
-  max-width:98vw;
-  margin-left:1vw;
-  margin-right:1vw;
-  display: flex;
-  justify-content: center;
-  align-items:center;
-}
-
-.save-the-date img {
-  max-height: 70vh;
-  max-width:98vw;
-}
-
-.lodging-info {
-  padding: 15px;
-}
-
-img#us {
-  width:100%;
-}
-
 #content {
-  text-align:center;
+  padding: 0px 20px 20px 20px;
+  text-align: center;
 }
 
 #content h2 {
+  font-family: 'Bodoni Moda Variable', sans-serif;
+  font-style: italic;
+  font-size: 2em;
+  font-weight: 550;
+  border-bottom: 1px solid rgb(30,87,134);
+  padding-bottom: 15px;
   margin: 15px 0px;
 }
 
@@ -115,79 +75,36 @@ img#us {
   font-size: 1.5em;
   font-weight: 550;
   color: white;
-  width: 100px;
   display: inline-block;
-  padding: 10px 20px;
+  padding: 10px 50px;
 }
 
-#schedule ul {
-  padding-inline-start: 0;
-}
-
-#schedule .fancy {
-  font-family: 'Bodoni Moda Variable', sans-serif;
-  font-style: italic;
-  font-size: 1.5em;
+.menu, #content {
+  font-family: 'Montserrat Variable', sans-serif;
+  font-size: 1em;
   font-weight: 550;
   color: rgb(30,87,134);
 }
 
-#schedule li {
-  list-style: none;
+#home img#us {
+  width:100%;
 }
 
-#schedule>ul>li {
-  margin-bottom: 20px;
-}
-#schedule>ul>li>ul>li {
-  margin-bottom: 20px;
-}
-
-
-#things-to-do ul {
+ul {
   padding-inline-start: 0;
 }
 
-#things-to-do .fancy {
-  font-family: 'Bodoni Moda Variable', sans-serif;
-  font-style: italic;
-  font-size: 1.5em;
-  font-weight: 550;
-  color: rgb(30,87,134);
-}
-
-#things-to-do li {
+li {
   list-style: none;
 }
 
-#things-to-do>ul>li {
+ul.pad-bottom-items>li {
   margin-bottom: 20px;
 }
-#things-to-do>ul>li>ul>li {
+ul.pad-bottom-items-small>li {
   margin-bottom: 5px;
 }
 
-#accommodations ul {
-  padding-inline-start: 0;
-}
-
-#accommodations li {
-  list-style: none;
-}
-
-#accommodations>ul>li {
-  margin-bottom: 20px;
-}
-#accommodations>ul>li>ul>li {
-  margin-bottom: 5px;
-}
-
-#faq li {
-  list-style: none;
-}
-#faq ul {
-  padding-inline-start: 0;
-}
 #rsvp ul {
   margin: 10px auto;
   max-width:600px;
@@ -196,7 +113,6 @@ img#us {
 #rsvp li {
   padding: 0;
   display: block;
-  list-style: none;
   margin: 10px 0 0 0;
 }
 #rsvp label {

@@ -11,7 +11,7 @@
     <div class="left">
       <Hamburger bind:open --color="rgb(30,87,134)" />
     </div>
-    <div class="center">
+    <div class="logo">
       <a href="/">Jenny & Dan</a>
     </div>
     <div class="right">
