@@ -92,7 +92,7 @@
           <li hidden={extendedHidden}>
             <ul>
               <li>
-                <label for="num_attending">Number Attending</label>
+                <label for="num_attending">Number Attending (Including Children)</label>
                 <input
                     name="num_attending"
                     type="number"
