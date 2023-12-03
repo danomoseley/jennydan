@@ -62,7 +62,7 @@
   </ul>
   <h3><hr>Hiking<hr></h3>
   <p>
-    Cooperstown has beautiful surrounding area and there are a few great scenic hikes to do. Download the AllTrails App on your phons for the most accurate trail information. 
+    Cooperstown has beautiful surrounding area and there are a few great scenic hikes to do. Download the AllTrails App on your phone for the most accurate trail information. 
   </p>
   <ul>
     <li>
