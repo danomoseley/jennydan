@@ -1,6 +1,6 @@
 <svelte:head>
-  <title>Dan & Jenny Are Getting Married! August 17, 2024</title>
-  <meta name="description" content="Dan & Jenny Are Getting Married! August 17, 2024 in Cooperstown, NY." />
+  <title>Getting to Cooperstown</title>
+  <meta name="description" content="For those of you who are unfamiliar with where Cooperstown is located or how to get here, we’ve put together some basic information to make your trip a little easier." />
 </svelte:head>
 
 <div class="travel-info">
