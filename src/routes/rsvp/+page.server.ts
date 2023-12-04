@@ -10,7 +10,8 @@ const rsvpSchema = z.object({
   attending: z.boolean().default(true),
   num_attending: z.union([z.coerce.number().int().positive(), z.nan()]).optional(),
   guest_names: z.string().optional(),
-  dietary_restrictions: z.string().optional()
+  dietary_restrictions: z.string().optional(),
+  attending_brunch: z.boolean().default(true)
 }).superRefine(({ attending, num_attending, guest_names }, refinementContext) => {
     if (attending) {
         if ( !num_attending && num_attending !== 0 ) {
@@ -49,8 +50,8 @@ export const actions = {
         }
 
         result = await platform.env.DB.prepare(
-            "INSERT INTO rsvp (attending, email, first_name, last_name, num_attending, guest_names, dietary_restrictions) VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7)"
-        ).bind(+ form.data.attending, form.data.email, form.data.first_name, form.data.last_name, form.data.num_attending ?? null, form.data.guest_names ?? null, form.data.dietary_restrictions ?? null).run();
+            "INSERT INTO rsvp (attending, email, first_name, last_name, num_attending, guest_names, dietary_restrictions, attending_brunch) VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8)"
+        ).bind(+ form.data.attending, form.data.email, form.data.first_name, form.data.last_name, form.data.num_attending ?? null, form.data.guest_names ?? null, form.data.dietary_restrictions ?? null, + form.data.attending_brunch).run();
         return message(form, 'Thank you for RSVPing!');
     }
 };

@@ -119,6 +119,32 @@
                     {...$constraints.dietary_restrictions} />
                 {#if $errors.dietary_restrictions}<br/><span class="invalid">{$errors.dietary_restrictions}</span>{/if}
               </li>
+              <li>
+                <label for="attending">Plan on attending the morning after brunch?</label>
+                <div class="radio-flex">
+                  <input
+                    name="attending_brunch"
+                    id="attending-brunch-true"
+                    value={true}
+                    type="radio"
+                    required
+                    bind:group={$form.attending_brunch}
+                    {...$constraints.attending_brunch} />
+                  <label for="attending-brunch-true">Yes!</label>
+                </div>
+                <div class="radio-flex">
+                  <input
+                    name="attending_brunch"
+                    id="attending-brunch-false"
+                    value={false}
+                    type="radio"
+                    bind:group={$form.attending_brunch}
+                    {...$constraints.attending_brunch} />
+                  <label for="attending-brunch-false">No</label>
+                  <br/>
+                </div>
+                {#if $errors.attending_brunch}<span class="invalid">{$errors.attending_brunch}</span>{/if}
+              </li>
             </ul>
           </li>
           <li>
