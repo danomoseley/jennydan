@@ -40,7 +40,7 @@
             {#if $errors.email}<span class="invalid">{$errors.email}</span>{/if}
           </li>
           <li>
-            <label for="first_name">First Name</label>
+            <label for="first_name">First name</label>
             <input
                 name="first_name"
                 type="text"
@@ -51,7 +51,7 @@
             {#if $errors.first_name}<br/><span class="invalid">{$errors.first_name}</span>{/if}
           </li>
           <li>
-            <label for="last_name">Last Name</label>
+            <label for="last_name">Last name</label>
             <input
                 name="last_name"
                 type="text"
@@ -84,7 +84,7 @@
                 bind:group={$form.attending}
                 on:change={toggleHidden}
                 {...$constraints.attending} />
-              <label for="attending-false">No, unfortunately.</label>
+              <label for="attending-false">No, unfortunately</label>
               <br/>
             </div>
             {#if $errors.attending}<span class="invalid">{$errors.attending}</span>{/if}
@@ -92,7 +92,7 @@
           <li hidden={extendedHidden}>
             <ul>
               <li>
-                <label for="num_attending">Number Attending (Including Children)</label>
+                <label for="num_attending">Number attending (including children)</label>
                 <input
                     name="num_attending"
                     type="number"
@@ -102,7 +102,7 @@
                 {#if $errors.num_attending}<br/><span class="invalid">{$errors.num_attending}</span>{/if}
               </li>
               <li hidden={additionalGuestsHidden}>
-                <label for="guest_names">Additional Guest Names</label>
+                <label for="guest_names">Additional guest names</label>
                 <textarea
                     name="guest_names"
                     aria-invalid={$errors.guest_names ? 'true' : undefined}
@@ -111,7 +111,7 @@
                 {#if $errors.guest_names}<br/><span class="invalid">{$errors.guest_names}</span>{/if}
               </li>
               <li>
-                <label for="dietary_restrictions">Dietary Restrictions</label>
+                <label for="dietary_restrictions">Dietary restrictions</label>
                 <textarea
                     name="dietary_restrictions"
                     aria-invalid={$errors.dietary_restrictions ? 'true' : undefined}
