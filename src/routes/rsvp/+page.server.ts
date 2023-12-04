@@ -49,9 +49,15 @@ export const actions = {
             return setError(form, 'email', 'E-mail already exists.');
         }
 
+        if (!form.data.attending) {
+            form.data.attending_brunch = null;
+        } else {
+            form.data.attending_brunch = +form.data.attending_brunch
+        }
+
         result = await platform.env.DB.prepare(
             "INSERT INTO rsvp (attending, email, first_name, last_name, num_attending, guest_names, dietary_restrictions, attending_brunch) VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8)"
-        ).bind(+ form.data.attending, form.data.email, form.data.first_name, form.data.last_name, form.data.num_attending ?? null, form.data.guest_names ?? null, form.data.dietary_restrictions ?? null, + form.data.attending_brunch).run();
+        ).bind(+ form.data.attending, form.data.email, form.data.first_name, form.data.last_name, form.data.num_attending ?? null, form.data.guest_names ?? null, form.data.dietary_restrictions ?? null, form.data.attending_brunch).run();
         return message(form, 'Thank you for RSVPing!');
     }
 };
