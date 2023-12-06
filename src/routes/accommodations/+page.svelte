@@ -28,7 +28,7 @@
   </ul>
   <h3><hr>Inns<hr></h3>
   <ul class="pad-bottom-items-small">
-    <li><a target="_blank" href="https://www.landmarkinncooperstown.com/">The Inn at Cooperstown</a></li>
+    <li><a target="_blank" href="https://www.landmarkinncooperstown.com/">The Landmark Inn</a></li>
     <li><a target="_blank" href="https://www.innatcooperstown.com/">The Inn at Cooperstown</a></li>
     <li><a target="_blank" href="https://therailroadinn.com/">The Railroad Inn</a></li>
     <li><a target="_blank" href="http://baysidecooperstown.com/">Bayside Inn and Marina</a></li>
