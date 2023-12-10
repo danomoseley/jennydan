@@ -1,4 +1,4 @@
-import { fail } from '@sveltejs/kit';
+import { fail, redirect } from '@sveltejs/kit';
 import { z } from 'zod';
 import { message, setError, superValidate } from 'sveltekit-superforms/server';
 
@@ -58,6 +58,6 @@ export const actions = {
         result = await platform.env.DB.prepare(
             "INSERT INTO rsvp (attending, email, first_name, last_name, num_attending, guest_names, dietary_restrictions, attending_brunch) VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8)"
         ).bind(+ form.data.attending, form.data.email, form.data.first_name, form.data.last_name, form.data.num_attending ?? null, form.data.guest_names ?? null, form.data.dietary_restrictions ?? null, form.data.attending_brunch).run();
-        return message(form, 'Thank you for RSVPing!');
+        throw redirect(303, '/thank-you');
     }
 };
