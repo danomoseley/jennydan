@@ -9,7 +9,7 @@
 
 {#if open}
     <div class="menu">
-        {#each [{title:'Save Our Date',link:'/'}, {title:'RSVP',link:'/rsvp'}, {title:'Schedule',link:'/schedule'}, {title:'Accommodations','link':'accommodations'},{title:'Getting To Cooperstown',link:'/travel'},{title:'Things To Do','link':'things-to-do'},{title:'Frequently Asked Questions','link':'faq'}] as link, i}
+        {#each [{title:'Save Our Date',link:'/'}, {title:'RSVP',link:'/rsvp'}, {title:'Schedule',link:'/schedule'}, {title:'Accommodations','link':'/accommodations'},{title:'Getting To Cooperstown',link:'/travel'},{title:'Things To Do','link':'/things-to-do'},{title:'Frequently Asked Questions','link':'/faq'}] as link, i}
             <p transition:fly={{ y: -15, delay: 50 * i }}>
                 <a href={link.link}>{link.title}</a>
             </p>
