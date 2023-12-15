@@ -17,7 +17,7 @@ npm run build && npx wrangler pages dev .svelte-kit/cloudflare --d1=D1_DATABASE_
 
 ## Building
 
-To create a production version of your app:
+To create a production version:
 
 ```bash
 npm run build
