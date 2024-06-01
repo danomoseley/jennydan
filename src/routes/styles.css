@@ -80,6 +80,15 @@ a {
   border: none;
 }
 
+#content a {
+  text-decoration: none;
+  font-family: 'Bodoni Moda Variable', sans-serif;
+  font-style: italic;
+  font-size: 1.5em;
+  font-weight: 550;
+  color: white;
+}
+
 .menu, #content {
   font-family: 'Montserrat Variable', sans-serif;
   font-size: 1em;
