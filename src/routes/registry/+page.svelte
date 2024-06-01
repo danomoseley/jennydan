@@ -1,10 +1,10 @@
 <svelte:head>
-  <title>Registry - Jenny & Dan</title>
+  <title>Our Registry - Jenny & Dan</title>
   <meta name="description" content="Your presence at our wedding is genuinely the best present we could ask for. If you wish to contribute to the next phase of our lives together, we've thought of a few things that might help us along the way!" />
 </svelte:head>
 
 <div id="registry">
-  <h2>Registry</h2>
+  <h2>Our Registry</h2>
   <p>
     Your presence at our wedding is genuinely the best present we could ask for.
   </p>
