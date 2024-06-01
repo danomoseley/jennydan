@@ -80,7 +80,7 @@ a {
   border: none;
 }
 
-#content a {
+#content .button-link {
   text-decoration: none;
   font-family: 'Bodoni Moda Variable', sans-serif;
   font-style: italic;
