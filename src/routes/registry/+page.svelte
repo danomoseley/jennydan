@@ -10,7 +10,7 @@
   </p>
   <p>
     If you wish to contribute to the next phase of our lives together, we've thought of a few things that might help us along the way!
-    <br/>br/>
+    <br/><br/>
     <a href="https://withjoy.com/jennydanregistry/registry?irclickid=112wNzxb4xyKWym3XkR7-w%3AvUkHX13yVWwcmwQ0&utm_medium=affiliate&utm_source=impactradius&utm_campaign=wedding&utm_content=Skimbit%20Ltd.&irgwc=1" target="_blank"><div class="button">View Our Registry</div></a>
   </p>
 </div>
