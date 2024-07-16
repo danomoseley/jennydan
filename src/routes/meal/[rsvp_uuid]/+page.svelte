@@ -9,6 +9,7 @@
 </script>
 <div id="rsvp">
   <h2>Reception Meal Choice</h2>
+  All options served with a side of roasted local vegetables and baby gold potatoes
   <form method="POST">
     {#each data.rsvp_guests as rsvp_guest}
       <h3>- {rsvp_guest.first_name} {rsvp_guest.last_name} -</h3>
@@ -22,7 +23,7 @@
               type="radio"
               required
               bind:group={rsvp_guest.meal_choice_rowid} />
-            <label for="meal-choice-{rsvp_guest.rowid}-1">Chicken</label>
+            <label for="meal-choice-{rsvp_guest.rowid}-1">Chicken Francese</label>
           </div>
         </li>
         <li>
@@ -34,7 +35,7 @@
               type="radio"
               required
               bind:group={rsvp_guest.meal_choice_rowid} />
-            <label for="meal-choice-{rsvp_guest.rowid}-2">Beef</label>
+            <label for="meal-choice-{rsvp_guest.rowid}-2">Prime Rib</label>
           </div>
         </li>
         <li>
@@ -46,7 +47,7 @@
               type="radio"
               required
               bind:group={rsvp_guest.meal_choice_rowid} />
-            <label for="meal-choice-{rsvp_guest.rowid}-3">Vegetarian</label>
+            <label for="meal-choice-{rsvp_guest.rowid}-3">Grilled Herb Crusted Salmon with Mango Salsa</label>
           </div>
         </li>
         <li>
@@ -58,7 +59,19 @@
               type="radio"
               required
               bind:group={rsvp_guest.meal_choice_rowid} />
-            <label for="meal-choice-{rsvp_guest.rowid}-4">Kids Choice - Chicken Nuggets</label>
+            <label for="meal-choice-{rsvp_guest.rowid}-4">Eggplant Rollatini (vegetarian and gluten free)</label>
+          </div>
+        </li>
+        <li>
+          <div class="radio-flex">
+            <input
+              name="meal-choice-{rsvp_guest.rowid}"
+              id="meal-choice-{rsvp_guest.rowid}-5"
+              value={5}
+              type="radio"
+              required
+              bind:group={rsvp_guest.meal_choice_rowid} />
+            <label for="meal-choice-{rsvp_guest.rowid}-5">Kids Choice - Chicken Fingers with fries</label>
           </div>
         </li>
       </ul>
