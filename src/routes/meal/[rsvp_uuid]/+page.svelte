@@ -74,6 +74,18 @@
             <label for="meal-choice-{rsvp_guest.rowid}-5">Kids Choice - Chicken Fingers with fries</label>
           </div>
         </li>
+        <li>
+          <div class="radio-flex">
+            <input
+              name="meal-choice-{rsvp_guest.rowid}"
+              id="meal-choice-{rsvp_guest.rowid}-6"
+              value={6}
+              type="radio"
+              required
+              bind:group={rsvp_guest.meal_choice_rowid} />
+            <label for="meal-choice-{rsvp_guest.rowid}-6">Infant / None</label>
+          </div>
+        </li>
       </ul>
     {/each}
     <input class="button" type="submit" value="Submit">
