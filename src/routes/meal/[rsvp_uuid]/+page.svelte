@@ -9,7 +9,7 @@
 </script>
 <div id="rsvp">
   <h2>Reception Meal Choice</h2>
-  All adult options served with a side of roasted local vegetables and baby gold potatoes
+  All adult options served with a side of roasted local vegetables and baby gold potatoes.
   <form method="POST">
     {#each data.rsvp_guests as rsvp_guest}
       <h3>- {rsvp_guest.first_name} {rsvp_guest.last_name} -</h3>
