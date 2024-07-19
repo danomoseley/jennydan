@@ -361,6 +361,15 @@ BODY_HTML = f"""<!DOCTYPE html>
             </table>
           </td>
         </tr>
+        <!--footer-->
+        <tr>
+          <td class="footer" align="center" valign="top" style="padding:50px 0;">
+            <p style="font-family: 'Trebuchet MS', Arial, sans-serif;font-size:14px;line-height:24px;mso-line-height-rule:exactly;color:#0a080b;margin-bottom:20px;">
+              <a href="https://www.jennydan.com/schedule" class="link" target="_blank" style="color: #0a080b; text-decoration: underline;">Schedule</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://www.jennydan.com/travel" class="link" target="_blank" style="color: #0a080b; text-decoration: underline;">Getting Here</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://www.jennydan.com/faq" class="link" target="_blank" style="color: #0a080b; text-decoration: underline;">FAQ</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://www.jennydan.com/things-to-do" class="link" target="_blank" style="color: #0a080b; text-decoration: underline;">Things To Do</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://www.jennydan.com/registry" class="link" target="_blank" style="color: #0a080b; text-decoration: underline;">Registry</a>
+            </p>
+
+          </td>
+        </tr>
       </table>
     </div>
 
