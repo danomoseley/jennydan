@@ -308,7 +308,7 @@ BODY_HTML = f"""<!DOCTYPE html>
               <tr>
                 <td align="center" valign="top" style="padding:20px 0;">
                   <!--light mode logo image-->
-                  <a href="https://www.jennydan.com"><img class="light-img" src="https://www.jennydan.com/img/jennydan-1721414290.png" width="283" height="78" alt="jennydan" style="color: #4a4a4a; font-family: 'Trebuchet MS', Arial, sans-serif; text-align:center; font-weight:bold; font-size:24px; line-height:28x; text-decoration: none; padding: 0;">
+                  <a href="https://www.jennydan.com"><img class="light-img" src="https://www.jennydan.com/img/jennydan-1721414290.png" width="283" height="78" alt="Jenny & Dan" style="color: #4a4a4a; font-family: 'Trebuchet MS', Arial, sans-serif; text-align:center; font-weight:bold; font-size:24px; line-height:28x; text-decoration: none; padding: 0;">
 
                     <!--dark mode logo image-->
                     <!--[if !mso]><! -->
