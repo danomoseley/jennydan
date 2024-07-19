@@ -20,6 +20,7 @@ headers = {"Authorization": f"Bearer {cloudflare_api_token}", "Content-Type": "a
 
 response = requests.post(endpoint, json=data, headers=headers).json()
 
+# DELETE THIS TO DO IT LIVE
 response = {
     'success': True,
     'result': [
