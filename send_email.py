@@ -15,8 +15,8 @@ rsvp_uuid = "e10f5182a2c549ecbcb85b28e6b2202a"
 BODY_TEXT = ( "Thank you for RSVPing to our wedding!\r\n"
               "Please choose your dinner options for our reception by visiting the following link: "
              f"https://www.jennydan.com/meal/{rsvp_uuid}\r\n"
-              "Please finalize your options by August 1st.\r\n"
-              "We are so happy you can make it to celebrate with us.\r\n\r\n"
+              "Please finalize your options by August 1st.\r\n\r\n"
+              "We are so happy you can make it to celebrate with us.\r\n"
               "Jenny & Dan"
             )
 
