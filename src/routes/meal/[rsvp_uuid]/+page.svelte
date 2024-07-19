@@ -1,6 +1,6 @@
 <svelte:head>
   <title>Choose Your Meals - Jenny & Dan</title>
-  <meta name="description" content="Please choose your meal for our wedding." />
+  <meta name="description" content="Please choose your meal for our wedding reception." />
 </svelte:head>
 
 <script lang="ts">
