@@ -6,11 +6,12 @@
 <script lang="ts">
   import type { PageData } from './$types';
   export let data: PageData;
+  import { enhance } from '$app/forms';
 </script>
 <div id="rsvp">
   <h2>Reception Meal Choice</h2>
   All adult options served with a side of roasted local vegetables and baby gold potatoes.
-  <form method="POST">
+  <form method="POST" use:enhance>
     {#each data.rsvp_guests as rsvp_guest}
       <h3>- {rsvp_guest.first_name} {rsvp_guest.last_name} -</h3>
       <ul>
