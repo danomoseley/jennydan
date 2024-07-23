@@ -449,4 +449,5 @@ if response['success']:
         else:
             print("Email sent!:")
             print(RECIPIENT)
+            print(f"https://www.jennydan.com/meal/{rsvp_uuid}")
             print(response['MessageId'])
