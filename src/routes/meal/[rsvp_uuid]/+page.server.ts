@@ -23,9 +23,6 @@ export const actions = {
             var regex = /meal-choice-(\d+)/g;
             var regex_result = regex.exec(data_pair[0]);
             if (regex_result) {
-                console.log(data_pair[1])
-                console.log(regex_result[1])
-
                 let result = await platform.env.DB.prepare(
                     "SELECT * FROM rsvp JOIN rsvp_guest ON rsvp.rowid = rsvp_guest.rsvp_rowid WHERE rsvp.uuid = ?1 AND rsvp_guest.rowid = ?2"
                 ).bind(params.rsvp_uuid, regex_result[1]).run();
