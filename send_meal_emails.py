@@ -385,7 +385,7 @@ if response['success']:
                             <tr>
                               <td align="center" valign="top" style="padding: 50px 0;">
                                 <p class="lTxt" style="color:#0a080b; margin:0 0 0px;">
-                                  We are so happy you can make it to celebrate with us.<br/><br/>
+                                  We are so happy you can make it to celebrate with us!<br/><br/>
                                   Jenny & Dan
                                 </p>
                               </td>
