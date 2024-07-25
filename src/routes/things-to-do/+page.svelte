@@ -25,7 +25,7 @@
     </li>
     <li>
       <ul class="pad-bottom-items-small">
-        <li><a target="_blank" href="https://fareharbor.com/embeds/book/canoeandkayakrentals-brookwood/items/?flow=1151327&full-items=yes>Brookwood Point</a></li>
+        <li><a target="_blank" href="https://fareharbor.com/embeds/book/canoeandkayakrentals-brookwood/items/?flow=1151327&full-items=yes">Brookwood Point</a></li>
         <li><a target="_blank" href="https://fareharbor.com/embeds/book/canoeandkayakrentals-glimmerglass/items/?flow=1151328&full-items=yes">Glimmerglass State Park</a></li>
         <li><a target="_blank" href="https://sam-smiths.checkfront.com/reserve/">Sam Smith's Boatyard</a></li>
         <li><a target="_blank" href="https://www.cooperstownlakefronthotel.com/boat-rentals">Lakefront Hotel</a></li>
