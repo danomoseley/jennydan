@@ -7,7 +7,7 @@
 </script>
 
 <div id="home">
-  <h2>Save Our Date</h2>
+  <h2>Wedding Weekend</h2>
   <p>
     Jenny Stafford and Dan Moseley are getting married! August 17, 2024 in Cooperstown, NY.
   </p>
