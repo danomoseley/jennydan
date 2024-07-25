@@ -36,8 +36,9 @@
     </li>
     <li>
       <ul class="pad-bottom-items-small">
+        <li><a target="_blank" href="https://www.cooperstownlakefronthotel.com/boat-tours">Glimmerglass Queen Boat Tours</a><\li>
         <li><a target="_blank" href="https://sam-smiths.checkfront.com/reserve/">Sam Smith's Boatyard</a></li>
-        <li><a target="_blank" href="https://www.cooperstownlakefronthotel.com/boat-rentals">Lakefront Hotel</a></li>
+        <li><a target="_blank" href="https://www.cooperstownlakefronthotel.com/boat-rentals">Lakefront Hotel Boat Rentals</a></li>
       </ul>
     </li>
     <li>
