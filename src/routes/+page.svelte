@@ -11,5 +11,7 @@
   <p>
     Jenny Stafford and Dan Moseley are getting married! August 17, 2024 in Cooperstown, NY.
   </p>
+  <a href="/schedule"><div class="button">SCHEDULE</div></a>
+  <br/><br/>
   <img id="us" alt="Jenny and Dan in the neighborhood they lived in NYC." src={us} />
 </div>
