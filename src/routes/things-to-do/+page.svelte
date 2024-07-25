@@ -45,9 +45,10 @@
     </li>
     <li>
       <ul class="pad-bottom-items-small">
-        <li><a target="_blank" href="https://www.thisiscooperstown.com/single-listing?id=453">Lakefront Park</a></li>
-        <li><a target="_blank" href="https://www.thisiscooperstown.com/single-listing?id=511">Brookwood Point Park</a></li>
-        <li><a target="_blank" href="https://www.otesaga.com/">The Lakefront Porch at The Otesaga</a></li>
+        <li><a target="_blank" href="https://maps.app.goo.gl/CstXDeTSnbLgrDsWA">Lakefront Park</a></li>
+        <li><a target="_blank" href="https://maps.app.goo.gl/haL6FCESRTc49SmP9">Brookwood Point Park</a></li>
+        <li><a target="_blank" href="https://www.otesaga.com/">The Lakefront Porch at The Otesaga</a>
+        <li><a target=_blank" href="https://maps.app.goo.gl/CfSEfYt8HkVLY2gQ7">Council Rock Park</a></li>
       </ul>
     </li>
     <li>
