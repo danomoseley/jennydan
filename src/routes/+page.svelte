@@ -14,12 +14,4 @@
   <img id="us" alt="Jenny and Dan in the neighborhood they lived in NYC." src={us} />
   <br/><br/>
   <a href="/schedule"><div class="button">VIEW SCHEDULE</div></a>
-  <br/><br/>
-  <a href="/travel"><div class="button">GETTING HERE</div></a>
-  <br/><br/>
-  <a href="/things-to-do"><div class="button">THINGS TO DO</div></a>
-  <br/><br/>
-  <a href="/faq"><div class="button">FAQ</div></a>
-  <br/><br/>
-  <a href="/faq"><div class="button">REGISTRY</div></a>
 </div>
