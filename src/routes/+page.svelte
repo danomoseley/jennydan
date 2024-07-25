@@ -3,7 +3,7 @@
   <meta name="description" content="Dan & Jenny Are Getting Married! August 17, 2024 in Cooperstown, NY." />
 </svelte:head>
 <script>
-  import us from '$lib/assets/us.jpg';
+  import us from '$lib/assets/us_nyc.jpg';
 </script>
 
 <div id="home">
@@ -11,5 +11,5 @@
   <p>
     Jenny Stafford and Dan Moseley are getting married! August 17, 2024 in Cooperstown, NY.
   </p>
-  <img id="us" alt="Jenny and Dan at Watervale beach in Michigan, where they got engaged." src={us} />
+  <img id="us" alt="Jenny and Dan in the neighborhood they lived in NYC." src={us} />
 </div>
