@@ -29,3 +29,4 @@ yarn-error.log*
 wrangler.toml
 config.cfg
 rsvp.xlsx
+meals.xlsx
