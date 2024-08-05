@@ -86,7 +86,7 @@
       <ul class="pad-bottom-items-small">
         <li><a target="_blank" href="https://www.instagram.com/norbuotsego/">Norbu</a></li>
         <li><a target="_blank" href="https://originscafe.org/">Origin's Cafe</a></li>
-        <li><a target="_blank" href="https://maps.app.goo.gl/fZeKtmp2Fa8e6B138">Nicoletta's</a></li>
+        <li><a target="_blank" href="https://maps.app.goo.gl/fZeKtmp2Fa8e6B138">Nicoletta's Italian Cafe</a></li>
         <li><a target="_blank" href="https://www.melsat22.com/">Mel's at 22</a></li>
         <li><a target="_blank" href="https://doubledaycafe.com/">Doubleday Cafe</a></li>
         <li><a target="_blank" href="https://bluemingogrill.com/">Blue Mingo Grill</a></li>
