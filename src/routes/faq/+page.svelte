@@ -27,7 +27,7 @@
     <li>
       <ul>
         <li><h3><hr>I don’t get around so easily these days, will someone help me get from place to place during the wedding?<hr></h3></li>
-        <li>Yes! For those guests who require some assistance getting around there will be a golf cart shuttle between locations.  </li>
+        <li>Yes! There will be a trolley shuttle between locations.  </li>
       </ul>
     </li>
     <li>
