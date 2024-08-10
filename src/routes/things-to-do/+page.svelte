@@ -77,6 +77,21 @@
       </ul>
     </li>
   </ul>
+  <h3><hr>Culture<hr></h3>
+  <p>
+    Our village is home to a great selection of cultural institutions.
+  </p>
+  <ul>
+    <li>
+      <ul class="pad-bottom-items-small">
+        <li><a target="_blank" href="https://fenimoreartmuseum.org/">The Fenimore Art Museum</a></li>
+        <li><a target="_blank" href="https://www.farmersmuseum.org/">The Farmers’ Museum</a></li>
+        <li><a target="_blank" href="https://glimmerglass.org/">Glimmerglass Opera</a></li>
+        <li><a target="_blank" href="https://hydehall.org/">Hyde Hall</a></li>
+        <li><a target="_blank" href="https://baseballhall.org/">The National Baseball Hall of Fame and Museum</a></li>
+      </ul>
+    </li>
+  </ul>
   <h3><hr>Food & Beverage<hr></h3>
   <p>
     Cooperstown has a variety of great restaurants and breweries. Here are our favorites! 
@@ -95,21 +110,6 @@
         <li><a target="_blank" href="https://www.otesaga.com/dine/the-hawkeye-bar-grill">The Hawkeye Bar & Grill</a></li>
         <li><a target="_blank" href="https://www.facebook.com/Schneidersbakery/">Schneider’s Bakery</a></li>
         <li><a target="_blank" href="https://stagecoachcoffee.com/">Stagecoach Coffee</a></li>
-      </ul>
-    </li>
-  </ul>
-  <h3><hr>Culture<hr></h3>
-  <p>
-    Our village is home to a great selection of cultural institutions.
-  </p>
-  <ul>
-    <li>
-      <ul class="pad-bottom-items-small">
-        <li><a target="_blank" href="https://fenimoreartmuseum.org/">The Fenimore Art Museum</a></li>
-        <li><a target="_blank" href="https://www.farmersmuseum.org/">The Farmers’ Museum</a></li>
-        <li><a target="_blank" href="https://glimmerglass.org/">Glimmerglass Opera</a></li>
-        <li><a target="_blank" href="https://hydehall.org/">Hyde Hall</a></li>
-        <li><a target="_blank" href="https://baseballhall.org/">The National Baseball Hall of Fame and Museum</a></li>
       </ul>
     </li>
   </ul>
