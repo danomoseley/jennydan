@@ -14,7 +14,7 @@
           <ul>
             <li class="fancy">Welcome Meet-Up</li>
             <li>8:00 - 11:00 PM</li>
-            <li>The Otesaga</li>
+            <li><a target="_blank" href="https://maps.app.goo.gl/qxhWUdT5jC3qSViy6">The Otesaga</a></li>
             <li>Fire Bar</li>
           </ul>
         </li>
@@ -29,7 +29,7 @@
           <ul>
             <li class="fancy">Ceremony</li>
             <li>4:00 - 5:00 PM</li>
-            <li>The Fenimore Art Museum</li>
+            <li><a target="_blank" href="https://maps.app.goo.gl/tbhNYMwWkgtPowac7">The Fenimore Art Museum</a></li>
             <li>Lake Side Ampitheater</li>
           </ul>
         </li>
@@ -38,7 +38,7 @@
           <ul>
             <li class="fancy">Cocktails</li>
             <li>5:00 - 6:00 PM</li>
-            <li>The Farmers' Museum</li>
+            <li><a target="_blank" href="https://maps.app.goo.gl/twtrAwbgMFD31iHBA">The Farmers' Museum</a></li>
             <li>Empire State Carousel</li>
           </ul>
         </li>
@@ -47,7 +47,7 @@
           <ul>
             <li class="fancy">Reception</li>
             <li>6:00 - 11:00 PM</li>
-            <li>The Farmers' Museum</li>
+            <li><a target="_blank" href="https://maps.app.goo.gl/twtrAwbgMFD31iHBA">The Farmers' Museum</a></li>
             <li>Louis C. Jones Center</li>
           </ul>
         </li>
@@ -62,7 +62,7 @@
           <ul>
             <li class="fancy">Morning After Brunch</li>
             <li>9:30 - 11:00 AM</li>
-            <li>Moseley Camp</li>
+            <li><a target="_blank" href="https://maps.app.goo.gl/BvwpLkqseDUs1VEP9">Moseley Camp</a></li>
           </ul>
         </li>
       </ul>
