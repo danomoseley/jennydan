@@ -32,14 +32,14 @@
     </li>
     <li>
       <ul>
-        <li><h3><hr>Will there be parking at the venue?<hr></h3></li>
-        <li>Yes! Please park in the lot across from the Farmers’ Museum. There will be a sign at the entry.</li>
+        <li><h3><hr>Will any transportation be provided?<hr></h3></li>
+        <li>We will be working with a trolly company to arrange for a few stops throughout town to pick up before the ceremony and drop off at the end of the night. More information to follow!</li>
       </ul>
     </li>
     <li>
       <ul>
-        <li><h3><hr>Will any transportation be provided?<hr></h3></li>
-        <li>We will be working with a trolly company to arrange for a few stops throughout town at the end of the night. More information to follow.</li>
+        <li><h3><hr>Will there be parking at the venue?<hr></h3></li>
+        <li>Yes! If you do choose to drive to the venue please park in the lot across from the Farmers’ Museum. There will be a sign at the entry.</li>
       </ul>
     </li>
     <li>
