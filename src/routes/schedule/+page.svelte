@@ -46,7 +46,7 @@
         <li>
           <ul>
             <li class="fancy">Ceremony</li>
-            <li>4:00 - 5:00 PM</li>
+            <li>4:30 - 5:00 PM</li>
             <li><a target="_blank" href="https://maps.app.goo.gl/tbhNYMwWkgtPowac7">The Fenimore Art Museum</a></li>
             <li>Lake Side Ampitheater</li>
           </ul>
