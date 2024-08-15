@@ -87,6 +87,7 @@
             <li class="fancy">Morning After Brunch</li>
             <li>9:30 - 11:00 AM</li>
             <li><a target="_blank" href="https://maps.app.goo.gl/BvwpLkqseDUs1VEP9">Moseley Camp</a></li>
+            <li>Please follow parking signs</li>
           </ul>
         </li>
       </ul>
