@@ -27,6 +27,16 @@
         </li>
         <li>
           <ul>
+            <li class="fancy">Guest Trolly Pickup</li>
+            <li>2:00 PM - Charlie & Amanda Stafford</li>
+            <li>3:15 PM - Steamboat Lane</li>
+            <li>3:45 PM - Lake n' Pines</li>
+            <li>4:10 PM - Otesaga</li>
+          </ul>
+        </li>
+        <li>&#9679;</li>
+        <li>
+          <ul>
             <li class="fancy">Ceremony</li>
             <li>4:00 - 5:00 PM</li>
             <li><a target="_blank" href="https://maps.app.goo.gl/tbhNYMwWkgtPowac7">The Fenimore Art Museum</a></li>
@@ -40,6 +50,7 @@
             <li>5:00 - 6:00 PM</li>
             <li><a target="_blank" href="https://maps.app.goo.gl/twtrAwbgMFD31iHBA">The Farmers' Museum</a></li>
             <li>Empire State Carousel</li>
+            <li>Trolly transportation provided</li>
           </ul>
         </li>
         <li>&#9679;</li>
@@ -51,6 +62,15 @@
             <li>Louis C. Jones Center</li>
           </ul>
         </li>
+        <li>&#9679;</li>
+        <li>
+          <ul>
+            <li class="fancy">Guest Trolly Dropoff</li>
+            <li>9:00 PM</li>
+            <li>10:00 PM</li>
+            <li>11:00 PM</li>
+            <li>11:30 PM</li>
+          </ul>
       </ul>
     </li>
     <li>
