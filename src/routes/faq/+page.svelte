@@ -33,7 +33,7 @@
     <li>
       <ul>
         <li><h3><hr>Will any transportation be provided?<hr></h3></li>
-        <li>We will be working with a trolly company to arrange for a few stops throughout town to pick up before the ceremony and drop off at the end of the night. More information to follow!</li>
+        <li>We will be working with a trolly company to arrange for a few stops throughout town to pick up before the ceremony and drop off at the end of the night. Please see the <a href="/schedule">schedule</a> for more info.</li>
       </ul>
     </li>
     <li>
