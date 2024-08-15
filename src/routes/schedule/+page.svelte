@@ -36,10 +36,10 @@
             <li>Steamboat Lane</li>
             <li>-</li>
             <li>3:45 PM</li>
-            <li>Lake n' Pines</li>
+            <li>Lake n' Pines Motel</li>
             <li>-</li>
             <li>4:10 PM</li>
-            <li>Otesaga</li>
+            <li>Otesaga Hotel</li>
           </ul>
         </li>
         <li>&#9679;</li>
