@@ -28,10 +28,14 @@
         <li>
           <ul>
             <li class="fancy">Guest Trolly Pickup</li>
-            <li>2:00 PM - Charlie & Amanda Stafford</li>
-            <li>3:15 PM - Steamboat Lane</li>
-            <li>3:45 PM - Lake n' Pines</li>
-            <li>4:10 PM - Otesaga</li>
+            <li>2:00 PM</li>
+            <li>Charlie & Amanda Stafford</li>
+            <li>3:15 PM</li>
+            <li>Steamboat Lane</li>
+            <li>3:45 PM</li>
+            <li>Lake n' Pines</li>
+            <li>4:10 PM</li>
+            <li>Otesaga</li>
           </ul>
         </li>
         <li>&#9679;</li>
