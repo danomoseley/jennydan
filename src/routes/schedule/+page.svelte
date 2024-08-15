@@ -58,6 +58,7 @@
             <li>5:00 - 6:00 PM</li>
             <li><a target="_blank" href="https://maps.app.goo.gl/twtrAwbgMFD31iHBA">The Farmers' Museum</a></li>
             <li>Empire State Carousel</li>
+            <li>-</li>
             <li>Trolly transportation provided</li>
           </ul>
         </li>
@@ -91,6 +92,7 @@
             <li class="fancy">Morning After Brunch</li>
             <li>9:30 - 11:00 AM</li>
             <li><a target="_blank" href="https://maps.app.goo.gl/BvwpLkqseDUs1VEP9">Moseley Camp</a></li>
+            <li>-</li>
             <li>Please follow parking signs</li>
           </ul>
         </li>
