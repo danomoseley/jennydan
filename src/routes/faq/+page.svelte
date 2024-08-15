@@ -9,7 +9,7 @@
     <li>
       <ul>
         <li><h3>Are children invited to the wedding?<hr></h3></li>
-        <li>Yes! The more the merrier! Should you wish to arrange for babysitting while you’re in town, please reach out to us for a recommendation.</li>
+        <li>Yes! The more the merrier! We will be having a teacher named Cait at the reception to help entertain the kids so parents can let loose a little more! Should you wish to arrange for babysitting while you’re in town, please reach out to us for a recommendation.</li>
       </ul>
     </li>
     <li>
