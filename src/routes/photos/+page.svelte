@@ -47,10 +47,9 @@
 <main class="max-w-5xl py-12 mx-auto space-y-12">
   <Label class="pb-2" for="multiple_files">Upload multiple files</Label>
   <Fileupload id="multiple_files" multiple bind:files on:change={handleFileUpload} />
-  <Spinner />
   <Listgroup items={files} let:item class="mt-2">
     {#if item}
-      {item.name}
+      {item.name} <Spinner />
     {:else}
       <ListgroupItem>No files</ListgroupItem>
     {/if}
