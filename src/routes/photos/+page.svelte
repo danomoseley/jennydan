@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Fileupload, Label, Listgroup, ListgroupItem } from 'flowbite-svelte';
+  import { Fileupload, Label, Listgroup, ListgroupItem, Progressbar} from 'flowbite-svelte';
   let files; // FileList type
   const handleFileUpload = async (e: Event) => {
     const target = e.target as HTMLInputElement;
@@ -32,8 +32,9 @@
 
       if (!uploadToR2Response.ok) {
         console.error('Failed to upload file to R2');
-      }
+      } 
     }
+    console.log("Upload complete!")
   };
 </script>
 
