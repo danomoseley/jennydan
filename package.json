@@ -34,9 +34,10 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@aws-sdk/client-s3": "^3.633.0",
+		"@aws-sdk/s3-request-presigner": "^3.633.0",
 		"@fontsource-variable/bodoni-moda": "^5.0.9",
 		"@fontsource-variable/montserrat": "^5.0.16",
-		"aws-sdk": "^2.1678.0",
 		"flowbite": "^2.5.1",
 		"flowbite-svelte": "^0.46.15"
 	}
