@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Fileupload, Label, Listgroup, ListgroupItem, Progressbar} from 'flowbite-svelte';
+  import { Fileupload, Label, Listgroup, ListgroupItem, Spinner } from 'flowbite-svelte';
   let files; // FileList type
   const handleFileUpload = async (e: Event) => {
     const target = e.target as HTMLInputElement;
@@ -48,7 +48,7 @@
   <Fileupload id="multiple_files" multiple bind:files on:change={handleFileUpload} />
   <Listgroup items={files} let:item class="mt-2">
     {#if item}
-      {item.name}
+      {item.name} <Spinner />
     {:else}
       <ListgroupItem>No files</ListgroupItem>
     {/if}
