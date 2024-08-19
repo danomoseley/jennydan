@@ -2,10 +2,7 @@
   import { Fileupload, Label, Listgroup, ListgroupItem } from 'flowbite-svelte';
   let files; // FileList type
   const handleFileUpload = async (e: Event) => {
-    const target = e.target as HTMLInputElement;
-    const file = target.files?.[0];
-
-    if (file) {
+    for (const file of files) {
       const getPresignedUrlResponse = await fetch('/photos', {
         method: 'POST',
         headers: {
