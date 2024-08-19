@@ -39,6 +39,7 @@
 		"@fontsource-variable/bodoni-moda": "^5.0.9",
 		"@fontsource-variable/montserrat": "^5.0.16",
 		"flowbite": "^2.5.1",
-		"flowbite-svelte": "^0.46.15"
+		"flowbite-svelte": "^0.46.15",
+		"tailwindcss": "^3.4.10"
 	}
 }
