@@ -40,6 +40,7 @@
 		"@fontsource-variable/montserrat": "^5.0.16",
 		"flowbite": "^2.5.1",
 		"flowbite-svelte": "^0.46.15",
+		"flowbite-svelte-icons": "^1.6.1",
 		"tailwindcss": "^3.4.10"
 	}
 }
