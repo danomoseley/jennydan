@@ -1,8 +1,19 @@
 import { PUBLIC_S3_BUCKET_NAME } from '$env/static/public';
-import { S3 } from '$lib/s3';
 import { PutObjectCommand } from '@aws-sdk/client-s3';
 import { getSignedUrl } from '@aws-sdk/s3-request-presigner';
 import { json } from "@sveltejs/kit";
+
+import { R2_ACCESS_KEY, R2_ACCOUNT_ID, R2_SECRET_KEY } from "$env/static/private";
+import { S3Client } from "@aws-sdk/client-s3";
+
+const S3 = new S3Client({
+    region: "auto",
+    endpoint: `https://${R2_ACCOUNT_ID}.r2.cloudflarestorage.com`,
+    credentials: {
+        accessKeyId: R2_ACCESS_KEY,
+        secretAccessKey: R2_SECRET_KEY,
+    },
+});
 
 const slugifyString = (str: string) => {
     return str.trim().toLowerCase().replace(/\s+/g, '-').replace(/\./g, '-').replace(/-+/g, '-').replace(/[^a-z0-9-]/g, '-');
