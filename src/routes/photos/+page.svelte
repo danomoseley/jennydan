@@ -16,6 +16,13 @@
           fileType: file.type
         })
       });
+
+      if (!getPresignedUrlResponse.ok) {
+        console.error('Failed to get presigned URL');
+      }
+
+      const { presignedUrl, objectKey } = await getPresignedUrlResponse.json();
+
       const uploadToR2Response = await fetch(presignedUrl, {
         method: 'PUT',
         headers: {
@@ -24,11 +31,9 @@
         body: file
       });
 
-      if (!getPresignedUrlResponse.ok) {
-        console.error('Failed to get presigned URL');
+      if (!uploadToR2Response.ok) {
+        console.error('Failed to upload file to R2');
       }
-
-      const { presignedUrl, objectKey } = await getPresignedUrlResponse.json();
     }
   };
 </script>
