@@ -1,3 +1,6 @@
+<script>
+  import "../app.css";
+</script>
 <script lang="ts">
   import { Fileupload, Label, Listgroup, ListgroupItem, Spinner } from 'flowbite-svelte';
   let files; // FileList type
