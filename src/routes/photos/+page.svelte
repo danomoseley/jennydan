@@ -1,7 +1,9 @@
 <script lang="ts">
   import { Fileupload, Label, Listgroup, ListgroupItem } from 'flowbite-svelte';
-  let files; // FileList type
   const handleFileUpload = async (e: Event) => {
+    const target = e.target as HTMLInputElement;
+    const files = target.files;
+
     for (const file of files) {
       const getPresignedUrlResponse = await fetch('/photos', {
         method: 'POST',
@@ -42,7 +44,7 @@
 
 <main class="max-w-5xl py-12 mx-auto space-y-12">
   <Label class="pb-2" for="multiple_files">Upload multiple files</Label>
-  <Fileupload id="multiple_files" multiple bind:files on:change={handleFileUpload} />
+  <Fileupload id="multiple_files" multiple on:change={handleFileUpload} />
   <Listgroup items={files} let:item class="mt-2">
     {#if item}
       {item.name}
