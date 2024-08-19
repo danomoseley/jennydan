@@ -19,26 +19,23 @@ const slugifyString = (str: string) => {
     return str.trim().toLowerCase().replace(/\s+/g, '-').replace(/\./g, '-').replace(/-+/g, '-').replace(/[^a-z0-9-]/g, '-');
 }
 
-/** @type {import('./$types').Actions} */
-export const actions = {
-    default: async ({ request, params, platform }) => {
-        const { fileName, fileType, } = await request.json() as { fileName: string | undefined, fileType: string | undefined };
+export async function POST({ request, cookies }) {
+    const { fileName, fileType, } = await request.json() as { fileName: string | undefined, fileType: string | undefined };
 
-        if (!fileName || !fileType || fileName.trim() === '' || fileType.trim() === '') {
-            return json({ message: 'Missing required parameters.' }, { status: 400 });
-        }
-
-        const objectKey = `${slugifyString(Date.now().toString())}-${slugifyString(fileName)}`;
-
-        const presignedUrl = await getSignedUrl(S3, new PutObjectCommand({
-            Bucket: PUBLIC_S3_BUCKET_NAME,
-            Key: objectKey,
-            ContentType: fileType,
-            ACL: 'public-read'
-        }), {
-            expiresIn: 60 * 5 // 5 minutes
-        });
-
-        return json({ presignedUrl, objectKey });
+    if (!fileName || !fileType || fileName.trim() === '' || fileType.trim() === '') {
+        return json({ message: 'Missing required parameters.' }, { status: 400 });
     }
-};
+
+    const objectKey = `${slugifyString(Date.now().toString())}-${slugifyString(fileName)}`;
+
+    const presignedUrl = await getSignedUrl(S3, new PutObjectCommand({
+        Bucket: PUBLIC_S3_BUCKET_NAME,
+        Key: objectKey,
+        ContentType: fileType,
+        ACL: 'public-read'
+    }), {
+        expiresIn: 60 * 5 // 5 minutes
+    });
+
+    return json({ presignedUrl, objectKey });
+}
