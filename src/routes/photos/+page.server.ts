@@ -19,10 +19,6 @@ const slugifyString = (str: string) => {
     return str.trim().toLowerCase().replace(/\s+/g, '-').replace(/\./g, '-').replace(/-+/g, '-').replace(/[^a-z0-9-]/g, '-');
 }
 
-export const POST = async ({ request }) => {
-
-};
-
 /** @type {import('./$types').Actions} */
 export const actions = {
     default: async ({ request, params, platform }) => {
