@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { Fileupload, Label, Listgroup, ListgroupItem } from 'flowbite-svelte';
+  let files; // FileList type
   const handleFileUpload = async (e: Event) => {
     const target = e.target as HTMLInputElement;
     const file = target.files?.[0];
@@ -37,7 +39,13 @@
 </svelte:head>
 
 <main class="max-w-5xl py-12 mx-auto space-y-12">
-  <h1>How to upload files to Cloudflare R2 in SvelteKit</h1>
-
-  <Fileupload id="with_helper" class="mb-2" on:change={handleFileUpload} />
+  <Label class="pb-2" for="multiple_files">Upload multiple files</Label>
+  <Fileupload id="multiple_files" multiple bind:files on:change={handleFileUpload} />
+  <Listgroup items={files} let:item class="mt-2">
+    {#if item}
+      {item.name}
+    {:else}
+      <ListgroupItem>No files</ListgroupItem>
+    {/if}
+  </Listgroup>
 </main>
