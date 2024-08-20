@@ -54,7 +54,7 @@
 </svelte:head>
 
 <main class="max-w-5xl py-12 mx-auto space-y-12">
-  <p>Share your photos of our wedding with us by uploading them here!</p>
+  <h2>Share your photos of our wedding with us by uploading them here!</h2>
   <p>When your photos have uploaded successfully they will display below. Do not leave the page until all photos have finished uploading and the loading indicator stops. If you refresh the page the photos will disappear, but don't worry we will still have them! Feel free to upload as many as you'd like.</p>
   <Fileupload id="multiple_files" multiple bind:files on:change={handleFileUpload} />
   <div id="spinner" style="display:none; margin:10px;"><Spinner size={20} /></div>
