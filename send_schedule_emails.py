@@ -19,10 +19,6 @@ data = {"sql": "SELECT email FROM rsvp where attending;"}
 headers = {"Authorization": f"Bearer {cloudflare_api_token}", "Content-Type": "application/json"}
 
 response = requests.post(endpoint, json=data, headers=headers).json()
-if response['success']:
-    results = response['result'][0]['results']
-    for result in results:
-      print(result['email'])
 
 # DELETE THIS TO DO IT LIVE
 response = {
