@@ -39,8 +39,9 @@
       console.log(objectKey)
       let img = new Image()
       img.src="https://photos.jennydan.com/"+objectKey
-      img.addEventListener('click', function() {
-        const getPresignedDeleteUrlResponse = fetch('/photos', {
+
+      img.addEventListener('click', () => {
+        fetch('/photos', {
           method: 'DELETE',
           headers: {
             'Content-Type': 'application/json'
@@ -49,23 +50,21 @@
             objectKey: objectKey,
             fileType: file.type
           })
-        });
-
-        if (!getPresignedDeleteUrlResponse.ok) {
-          console.error('Failed to get presigned delete URL');
-        }
-
-        const { presignedDeleteUrl, objectKey2 } = getPresignedDeleteUrlResponse.json();
-
-        const deleteFromR2Response = fetch(presignedDeleteUrl, {
-          method: 'DELETE'
-        });
-
-        if (!deleteFromR2Response.ok) {
-          console.error('Failed to delete file from R2');
-        }
-
-        img.style.display="none"
+        }).then(response => {
+          if (!response.ok) {
+            console.error('Failed to get presigned delete URL');
+          }
+          return response.json();
+        }).then({ presignedDeleteUrl, objectKey2 } => {
+          fetch(presignedDeleteUrl, {
+            method: 'DELETE'
+          }).then(response2 => {
+            if (!response2.ok) {
+              console.error('Failed to delete file from R2');
+            }
+            img.style.display="none"
+          })
+        })
       });
       img.style.display="inline"
       img.style.padding="10px"
