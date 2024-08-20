@@ -113,8 +113,8 @@
 
 <div id="photos">
   <h2>Share Your Photos!</h2>
-  <p style="margin-bottom:20px;">When your photos have uploaded successfully they will display below. Feel free to upload as many as you'd like.</p>
-  <p style="margin-bottom:20px">Do not leave the page until all photos have finished uploading and the loading indicator stops. If you refresh the page the photos will disappear, but don't worry we will still have them!</p>
+  <p style="margin-bottom:20px;">When your photos have uploaded successfully they will display below. If you refresh the page the photos will disappear, but don't worry we will still have them!</p>
+  <p style="margin-bottom:20px">Do not leave the page until all photos have finished uploading and the loading indicator stops.</p>
   <Fileupload id="multiple_files" multiple bind:files on:change={handleFileUpload} />
   <div id="spinner" style="display:none; margin:10px;"><Spinner size={20} /></div>
   <div id="uploaded_images"></div>
