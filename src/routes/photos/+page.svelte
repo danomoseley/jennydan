@@ -56,6 +56,6 @@
 <main class="max-w-5xl py-12 mx-auto space-y-12">
   <Label class="pb-2" for="multiple_files">Share your photos of our wedding with us by uploading them below!</Label>
   <Fileupload id="multiple_files" multiple bind:files on:change={handleFileUpload} />
-  <span id="spinner" style="display:none;"><Spinner /></span>
+  <div id="spinner" style="display:none; margin:10px;"><Spinner size={8} /></div>
   <div id="uploaded_images"></div>
 </main>
