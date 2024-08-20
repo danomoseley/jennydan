@@ -13,5 +13,5 @@
   </p>
   <img id="us" alt="Jenny and Dan in the neighborhood they lived in NYC." src={us} />
   <br/><br/>
-  <a href="/schedule"><div class="button">VIEW SCHEDULE</div></a>
+  <a href="/photos"><div class="button">SHARE YOUR PHOTOS</div></a>
 </div>
