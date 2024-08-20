@@ -3,6 +3,7 @@
   import { Fileupload, Label, Listgroup, ListgroupItem, Spinner } from 'flowbite-svelte';
   let files; // FileList type
   const handleFileUpload = async (e: Event) => {
+    document.querySelectorAll('.file_spinner').forEach(e => e.style.display='block');
     const target = e.target as HTMLInputElement;
 
     for (const file of target.files) {
