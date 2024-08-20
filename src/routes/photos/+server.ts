@@ -39,3 +39,22 @@ export async function POST({ request, cookies }) {
 
     return json({ presignedUrl, objectKey });
 }
+
+export async function DELETE({ request, cookies }) {
+    const { objectKey, fileType, } = await request.json() as { objectKey: string | undefined, fileType: string | undefined };
+
+    if (!objectKey || !fileType || objectKey.trim() === '' || fileType.trim() === '') {
+        return json({ message: 'Missing required parameters.' }, { status: 400 });
+    }
+
+    const presignedUrl = await getSignedUrl(S3, new DeleteObjectCommand({
+        Bucket: PUBLIC_S3_BUCKET_NAME,
+        Key: objectKey,
+        ContentType: fileType,
+        ACL: 'public-read'
+    }), {
+        expiresIn: 60 * 5 // 5 minutes
+    });
+
+    return json({ presignedUrl, objectKey });
+}

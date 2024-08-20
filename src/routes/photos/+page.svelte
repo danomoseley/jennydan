@@ -40,12 +40,31 @@
       let img = new Image()
       img.src="https://photos.jennydan.com/"+objectKey
       img.addEventListener('click', function() {
-        const delete2Response = fetch(presignedUrl, {
+        const getPresignedDeleteUrlResponse = fetch('/photos', {
+          method: 'DELETE',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            objectKey: objectKey,
+            fileType: file.type
+          })
+        });
+
+        if (!getPresignedDeleteUrlResponse.ok) {
+          console.error('Failed to get presigned delete URL');
+        }
+
+        const { presignedDeleteUrl, objectKey } = getPresignedDeleteUrlResponse.json();
+
+        const deleteFromR2Response = await fetch(presignedDeleteUrl, {
           method: 'DELETE'
         });
-        if (!delete2Response.ok) {
+
+        if (!deleteFromR2Response.ok) {
           console.error('Failed to delete file from R2');
         }
+
         img.style.display="none"
       });
       img.style.display="inline"
