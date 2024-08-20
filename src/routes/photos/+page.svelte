@@ -75,7 +75,7 @@
       svg.setAttribute('mass', 'w-[40px] h-[40px] text-gray-800 dark:text-white')
       svg.setAttribute('aria-hidden', 'true')
       svg.setAttribute('width', '24')
-      svg.setAttribute('height, '24')
+      svg.setAttribute('height', '24')
       svg.setAttribute('fill', 'currentColor')
       svg.setAttribute('viewBox', '0 0 24 24')
       let path1 = document.createElementNS("http://www.w3.org/2000/svg", 'path');
