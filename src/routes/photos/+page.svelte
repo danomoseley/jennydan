@@ -40,6 +40,7 @@
       span.style.display="block"
       span.style.position="relative"
       span.style.width="140px"
+      span.style.float="left"
       let img = new Image()
       img.src="https://photos.jennydan.com/"+objectKey
 
