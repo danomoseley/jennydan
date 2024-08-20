@@ -55,7 +55,8 @@
             console.error('Failed to get presigned delete URL');
           }
           return response.json();
-        }).then({ presignedDeleteUrl, objectKey2 } => {
+        }).then(data => {
+          { presignedDeleteUrl, objectKey2 } = data
           fetch(presignedDeleteUrl, {
             method: 'DELETE'
           }).then(response2 => {
