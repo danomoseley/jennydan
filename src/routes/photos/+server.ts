@@ -1,5 +1,5 @@
 import { PUBLIC_S3_BUCKET_NAME } from '$env/static/public';
-import { PutObjectCommand } from '@aws-sdk/client-s3';
+import { PutObjectCommand, DeleteObjectCommand } from '@aws-sdk/client-s3';
 import { getSignedUrl } from '@aws-sdk/s3-request-presigner';
 import { json } from "@sveltejs/kit";
 
