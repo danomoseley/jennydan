@@ -42,7 +42,11 @@
       span.style.width="140px"
       span.style.float="left"
       let img = new Image()
-      img.src="https://photos.jennydan.com/"+objectKey
+      if (file.type.startsWith('video')) {
+        img.src="https://w7.pngwing.com/pngs/147/745/png-transparent-video-production-freemake-video-er-video-icon-free-angle-text-rectangle-thumbnail.png"
+      } else {
+        img.src="https://photos.jennydan.com/"+objectKey
+      }
 
       img.style.display="inline"
       img.style.margin="20px"
