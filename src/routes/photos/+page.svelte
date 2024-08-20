@@ -42,7 +42,7 @@
       img.style.display="inline"
       img.style.padding="10px"
       img.width=100
-      document.getElementById("uploaded_images").appendChild(img);
+      document.getElementById("uploaded_images").prepend(img);
     }
     document.getElementById('spinner').style.display='none';
   };
