@@ -57,7 +57,6 @@
           return response.json();
         }).then(data => {
           const presignedDeleteUrl = data['presignedUrl']
-          console.log(presignedDeleteUrl)
           fetch(presignedDeleteUrl, {
             method: 'DELETE'
           }).then(response2 => {
@@ -84,7 +83,7 @@
 
 <div id="photos">
   <h2>Share Your Photos!</h2>
-  <p style="margin-bottom:20px;">When your photos have uploaded successfully they will display below. Do not leave the page until all photos have finished uploading and the loading indicator stops. If you refresh the page the photos will disappear, but don't worry we will still have them! Feel free to upload as many as you'd like.</p>
+  <p style="margin-bottom:20px;">When your photos have uploaded successfully they will display below. Click on a photo to delete it. Do not leave the page until all photos have finished uploading and the loading indicator stops. If you refresh the page the photos will disappear, but don't worry we will still have them! Feel free to upload as many as you'd like.</p>
   <Fileupload id="multiple_files" multiple bind:files on:change={handleFileUpload} />
   <div id="spinner" style="display:none; margin:10px;"><Spinner size={20} /></div>
   <div id="uploaded_images"></div>
