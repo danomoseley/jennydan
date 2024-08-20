@@ -53,12 +53,14 @@
       svg.setAttribute('aria-hidden', 'true')
       svg.setAttribute('width', '24')
       svg.setAttribute('height', '24')
-      svg.setAttribute('fill', 'currentColor')
+      svg.setAttribute('fill', 'none')
       svg.setAttribute('viewBox', '0 0 24 24')
       let path1 = document.createElementNS("http://www.w3.org/2000/svg", 'path');
-      path1.setAttribute('fill-rule', 'evenodd')
-      path1.setAttribute('clip-rule', 'evenodd')
-      path1.setAttribute('d', 'M2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10S2 17.523 2 12Zm7.707-3.707a1 1 0 0 0-1.414 1.414L10.586 12l-2.293 2.293a1 1 0 1 0 1.414 1.414L12 13.414l2.293 2.293a1 1 0 0 0 1.414-1.414L13.414 12l2.293-2.293a1 1 0 0 0-1.414-1.414L12 10.586 9.707 8.293Z');
+      path1.setAttribute('stroke', 'currentColor')
+      path1.setAttribute('stroke-linecap', 'round')
+      path1.setAttribute('stroke-linejoin', 'round')
+      path1.setAttribute('stroke-width', '3')
+      path1.setAttribute('d', 'm15 9-6 6m0-6 6 6m6-3a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z');
       svg.appendChild(path1)
       svg.style.position="absolute"
       svg.style.top="0px"
