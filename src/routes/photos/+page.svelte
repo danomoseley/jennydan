@@ -40,7 +40,7 @@
       img.src="https://photos.jennydan.com/"+objectKey
       document.getElementById("uploaded_images").appendChild(img);
     }
-    document.querySelectorAll('.spinner').forEach(e => e.remove());
+    //document.querySelectorAll('.spinner').forEach(e => e.remove());
   };
 </script>
 
