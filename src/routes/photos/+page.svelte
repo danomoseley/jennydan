@@ -39,6 +39,15 @@
       console.log(objectKey)
       let img = new Image()
       img.src="https://photos.jennydan.com/"+objectKey
+      img.addEventListener('click', function() {
+        const delete2Response = await fetch(presignedUrl, {
+          method: 'DELETE'
+        });
+        if (!delete2Response.ok) {
+          console.error('Failed to delete file from R2');
+        }
+        img.style.display="none"
+      });
       img.style.display="inline"
       img.style.padding="10px"
       img.width=100
