@@ -87,7 +87,7 @@
             if (!response2.ok) {
               console.error('Failed to delete file from R2');
             }
-            img.style.display="none"
+            span.style.display="none"
           })
         })
       });
