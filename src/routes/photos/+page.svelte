@@ -40,7 +40,7 @@
       let img = new Image()
       img.src="https://photos.jennydan.com/"+objectKey
       img.addEventListener('click', function() {
-        const delete2Response = await fetch(presignedUrl, {
+        const delete2Response = fetch(presignedUrl, {
           method: 'DELETE'
         });
         if (!delete2Response.ok) {
