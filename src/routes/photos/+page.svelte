@@ -3,7 +3,7 @@
   import { Fileupload, Label, Listgroup, ListgroupItem, Spinner } from 'flowbite-svelte';
   let files; // FileList type
   const handleFileUpload = async (e: Event) => {
-    document.getElementById('spinner')style.display='inline';
+    document.getElementById('spinner').style.display='inline';
     const target = e.target as HTMLInputElement;
 
     for (const file of target.files) {
@@ -44,7 +44,7 @@
       img.width=100
       document.getElementById("uploaded_images").appendChild(img);
     }
-    document.getElementById('spinner')style.display='none';
+    document.getElementById('spinner').style.display='none';
   };
 </script>
 
