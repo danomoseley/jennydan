@@ -70,7 +70,13 @@
       img.style.display="inline"
       img.style.padding="10px"
       img.width=100
+
+      imgX = new Image()
+      imgX.src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Red_X.svg"
+      imgX.width=100
+
       span.appendChild(img)
+      span.appendChild(imgX)
       document.getElementById("uploaded_images").prepend(span);
     }
     document.getElementById('spinner').style.display='none';
