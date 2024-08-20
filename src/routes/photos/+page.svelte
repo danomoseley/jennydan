@@ -56,7 +56,7 @@
           }
           return response.json();
         }).then(data => {
-          { presignedDeleteUrl, objectKey2 } = data
+          const { presignedDeleteUrl, objectKey2 } = data
           fetch(presignedDeleteUrl, {
             method: 'DELETE'
           }).then(response2 => {
