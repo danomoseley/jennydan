@@ -43,7 +43,7 @@
       span.style.float="left"
       let img = new Image()
       if (file.type.startsWith('video')) {
-        img.src="https://w7.pngwing.com/pngs/147/745/png-transparent-video-production-freemake-video-er-video-icon-free-angle-text-rectangle-thumbnail.png"
+        img.src="https://cdn1.iconfinder.com/data/icons/file-types-29/1792/file-movie-1024.png
       } else {
         img.src="https://photos.jennydan.com/"+objectKey
       }
