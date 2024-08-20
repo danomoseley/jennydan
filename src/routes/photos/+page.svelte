@@ -40,6 +40,7 @@
       let img = new Image()
       img.src="https://photos.jennydan.com/"+objectKey
       img.style.display="inline"
+      img.style.padding="10px"
       img.width=100
       document.getElementById("uploaded_images").appendChild(img);
     }
@@ -48,7 +49,7 @@
 </script>
 
 <svelte:head>
-  <title>Photos - Jenny & Dan</title>
+  <title>Share Your Photos With Us - Jenny & Dan</title>
   <meta name="description" content="Share your wedding day photos with us!" />
 </svelte:head>
 
