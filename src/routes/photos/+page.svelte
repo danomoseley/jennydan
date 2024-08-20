@@ -72,7 +72,7 @@
       img.width=100
 
       let svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
-      svg.setAttribute('class', 'w-[40px] h-[40px] text-gray-800 dark:text-white')
+      svg.setAttribute('class', 'w-[48px] h-[48px] text-gray-800 dark:text-white')
       svg.setAttribute('aria-hidden', 'true')
       svg.setAttribute('width', '24')
       svg.setAttribute('height', '24')
