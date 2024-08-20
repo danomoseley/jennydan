@@ -34,8 +34,11 @@
       if (!uploadToR2Response.ok) {
         console.error('Failed to upload file to R2');
       }
-      
+
       console.log(objectKey)
+      let img = new Image()
+      img.src="https://photos.jennydan.com/"+objectKey
+      document.getElementById("uploaded_images").appendChild(img);
     }
     document.querySelectorAll('.spinner').forEach(e => e.remove());
   };
@@ -56,4 +59,5 @@
       <ListgroupItem>No files</ListgroupItem>
     {/if}
   </Listgroup>
+  <div id="uploaded_images"></div>
 </main>
