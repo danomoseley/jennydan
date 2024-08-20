@@ -36,11 +36,10 @@
         console.error('Failed to upload file to R2');
       }
 
-      let span = document.createElement('span')
       let img = new Image()
       img.src="https://photos.jennydan.com/"+objectKey
 
-      span.addEventListener('click', () => {
+      img.addEventListener('click', () => {
         fetch('/photos', {
           method: 'DELETE',
           headers: {
@@ -70,14 +69,7 @@
       img.style.display="inline"
       img.style.padding="10px"
       img.width=100
-
-      let imgX = new Image()
-      imgX.src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Red_X.svg"
-      imgX.width=100
-
-      span.appendChild(img)
-      span.appendChild(imgX)
-      document.getElementById("uploaded_images").prepend(span);
+      document.getElementById("uploaded_images").prepend(img);
     }
     document.getElementById('spinner').style.display='none';
   };
