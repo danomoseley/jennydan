@@ -40,7 +40,7 @@
       let img = new Image()
       img.src="https://photos.jennydan.com/"+objectKey
 
-      img.addEventListener('click', () => {
+      span.addEventListener('click', () => {
         fetch('/photos', {
           method: 'DELETE',
           headers: {
@@ -71,7 +71,7 @@
       img.style.padding="10px"
       img.width=100
 
-      imgX = new Image()
+      let imgX = new Image()
       imgX.src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Red_X.svg"
       imgX.width=100
 
