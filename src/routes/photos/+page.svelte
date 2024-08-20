@@ -56,7 +56,7 @@
           }
           return response.json();
         }).then(data => {
-          presignedDeleteUrl = data['presignedUrl']
+          const presignedDeleteUrl = data['presignedUrl']
           console.log(presignedDeleteUrl)
           fetch(presignedDeleteUrl, {
             method: 'DELETE'
