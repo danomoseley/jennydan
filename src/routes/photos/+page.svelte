@@ -43,7 +43,27 @@
       let img = new Image()
       img.src="https://photos.jennydan.com/"+objectKey
 
-      img.addEventListener('click', () => {
+      img.style.display="inline"
+      img.style.margin="20px"
+      img.width=100
+
+      let svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+      svg.setAttribute('class', 'w-[48px] h-[48px] text-gray-800 dark:text-white')
+      svg.setAttribute('aria-hidden', 'true')
+      svg.setAttribute('width', '24')
+      svg.setAttribute('height', '24')
+      svg.setAttribute('fill', 'currentColor')
+      svg.setAttribute('viewBox', '0 0 24 24')
+      let path1 = document.createElementNS("http://www.w3.org/2000/svg", 'path');
+      path1.setAttribute('fill-rule', 'evenodd')
+      path1.setAttribute('clip-rule', 'evenodd')
+      path1.setAttribute('d', 'M2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10S2 17.523 2 12Zm7.707-3.707a1 1 0 0 0-1.414 1.414L10.586 12l-2.293 2.293a1 1 0 1 0 1.414 1.414L12 13.414l2.293 2.293a1 1 0 0 0 1.414-1.414L13.414 12l2.293-2.293a1 1 0 0 0-1.414-1.414L12 10.586 9.707 8.293Z');
+      svg.appendChild(path1)
+      svg.style.position="absolute"
+      svg.style.top="-10px"
+      svg.style.right="-10px"
+
+      svg.addEventListener('click', () => {
         fetch('/photos', {
           method: 'DELETE',
           headers: {
@@ -70,25 +90,6 @@
           })
         })
       });
-      img.style.display="inline"
-      img.style.margin="20px"
-      img.width=100
-
-      let svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
-      svg.setAttribute('class', 'w-[48px] h-[48px] text-gray-800 dark:text-white')
-      svg.setAttribute('aria-hidden', 'true')
-      svg.setAttribute('width', '24')
-      svg.setAttribute('height', '24')
-      svg.setAttribute('fill', 'currentColor')
-      svg.setAttribute('viewBox', '0 0 24 24')
-      let path1 = document.createElementNS("http://www.w3.org/2000/svg", 'path');
-      path1.setAttribute('fill-rule', 'evenodd')
-      path1.setAttribute('clip-rule', 'evenodd')
-      path1.setAttribute('d', 'M2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10S2 17.523 2 12Zm7.707-3.707a1 1 0 0 0-1.414 1.414L10.586 12l-2.293 2.293a1 1 0 1 0 1.414 1.414L12 13.414l2.293 2.293a1 1 0 0 0 1.414-1.414L13.414 12l2.293-2.293a1 1 0 0 0-1.414-1.414L12 10.586 9.707 8.293Z');
-      svg.appendChild(path1)
-      svg.style.position="absolute"
-      svg.style.top="-10px"
-      svg.style.right="-10px"
 
       span.appendChild(img)
       span.appendChild(svg)
