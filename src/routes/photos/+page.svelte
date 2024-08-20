@@ -39,6 +39,8 @@
       console.log(objectKey)
       let img = new Image()
       img.src="https://photos.jennydan.com/"+objectKey
+      img.style.display="inline"
+      img.width="100px"
       document.getElementById("uploaded_images").appendChild(img);
     }
     document.querySelectorAll('.file_spinner').forEach(e => e.style.display='none');
