@@ -40,7 +40,7 @@
       img.src="https://photos.jennydan.com/"+objectKey
       document.getElementById("uploaded_images").appendChild(img);
     }
-    //document.querySelectorAll('.spinner').forEach(e => e.remove());
+    //document.querySelectorAll('.file_spinner').forEach(e => e.remove());
   };
 </script>
 
@@ -54,7 +54,7 @@
   <Fileupload id="multiple_files" multiple bind:files on:change={handleFileUpload} />
   <Listgroup items={files} let:item class="mt-2">
     {#if item}
-      {item.name} <span class="spinner"><Spinner /></span>
+      {item.name} <span class="file_spinner"><Spinner /></span>
     {:else}
       <ListgroupItem>No files</ListgroupItem>
     {/if}
