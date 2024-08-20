@@ -3,7 +3,7 @@
   import { Fileupload, Label, Listgroup, ListgroupItem, Spinner } from 'flowbite-svelte';
   let files; // FileList type
   const handleFileUpload = async (e: Event) => {
-    document.querySelectorAll('.file_spinner').forEach(e => e.style.display='inline');
+    document.getElementById('spinner')style.display='inline';
     const target = e.target as HTMLInputElement;
 
     for (const file of target.files) {
@@ -44,7 +44,7 @@
       img.width=100
       document.getElementById("uploaded_images").appendChild(img);
     }
-    document.querySelectorAll('.file_spinner').forEach(e => e.style.display='none');
+    document.getElementById('spinner')style.display='none';
   };
 </script>
 
@@ -56,12 +56,6 @@
 <main class="max-w-5xl py-12 mx-auto space-y-12">
   <Label class="pb-2" for="multiple_files">Share your photos of our wedding with us by uploading them below!</Label>
   <Fileupload id="multiple_files" multiple bind:files on:change={handleFileUpload} />
-  <Listgroup items={files} let:item class="mt-2">
-    {#if item}
-      {item.name} <span class="file_spinner"><Spinner /></span>
-    {:else}
-      <ListgroupItem>No files</ListgroupItem>
-    {/if}
-  </Listgroup>
+  <span id="spinner" style="display:none;"><Spinner /></span>
   <div id="uploaded_images"></div>
 </main>
