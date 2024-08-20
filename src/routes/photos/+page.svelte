@@ -57,7 +57,7 @@
 
         const { presignedDeleteUrl, objectKey } = getPresignedDeleteUrlResponse.json();
 
-        const deleteFromR2Response = await fetch(presignedDeleteUrl, {
+        const deleteFromR2Response = fetch(presignedDeleteUrl, {
           method: 'DELETE'
         });
 
