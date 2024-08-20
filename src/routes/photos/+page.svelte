@@ -35,7 +35,7 @@
         console.error('Failed to upload file to R2');
       } 
     }
-    console.log("Upload complete!")
+    document.querySelectorAll('.spinner').forEach(e => e.remove());
   };
 </script>
 
@@ -49,7 +49,7 @@
   <Fileupload id="multiple_files" multiple bind:files on:change={handleFileUpload} />
   <Listgroup items={files} let:item class="mt-2">
     {#if item}
-      {item.name} <Spinner />
+      {item.name} <span class="spinner"><Spinner /></span>
     {:else}
       <ListgroupItem>No files</ListgroupItem>
     {/if}
