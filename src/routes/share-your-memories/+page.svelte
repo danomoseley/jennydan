@@ -7,7 +7,7 @@
     const target = e.target as HTMLInputElement;
 
     for (const file of target.files) {
-      const getPresignedUrlResponse = await fetch('/share-your-photos', {
+      const getPresignedUrlResponse = await fetch('/share-your-memories', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -71,7 +71,7 @@
       svg.style.right="0px"
 
       svg.addEventListener('click', () => {
-        fetch('/share-your-photos', {
+        fetch('/share-your-memories', {
           method: 'DELETE',
           headers: {
             'Content-Type': 'application/json'
@@ -107,15 +107,15 @@
 </script>
 
 <svelte:head>
-  <title>Share Your Photos With Us - Jenny & Dan</title>
-  <meta name="description" content="Share your wedding day photos with us!" />
+  <title>Share Your Memories With Us - Jenny & Dan</title>
+  <meta name="description" content="Share your wedding day memories with us!" />
 </svelte:head>
 
-<div id="photos">
-  <h2>Share Your Photos!</h2>
-  <p style="margin-bottom:20px;">Thanks for coming to our wedding! Please share your photo memories by uploading them below, so we can experience the weekend over and over.</p>
-  <p style="margin-bottom:20px;">When your photos have uploaded successfully they will display below. If you refresh the page the photos will disappear, but don't worry we will still have them!</p>
-  <p style="margin-bottom:20px">Do not leave the page until all photos have finished uploading and the loading indicator stops.</p>
+<div id="memories">
+  <h2>Share Your Memories!</h2>
+  <p style="margin-bottom:20px;">Thanks for coming to our wedding! Please share your photo and video memories by uploading them below, so we can experience the weekend over and over.</p>
+  <p style="margin-bottom:20px;">When your photos and videos have uploaded successfully they will display below, if you refresh the page they will disappear but don't worry we will still have them! You won't be able to preview uploaded videos, but we will get them. </p>
+  <p style="margin-bottom:20px">Do not leave the page until all files have finished uploading and the loading indicator stops.</p>
   <Fileupload id="multiple_files" multiple bind:files on:change={handleFileUpload} />
   <div id="spinner" style="display:none; margin:10px;"><Spinner size={20} /></div>
   <div id="uploaded_images"></div>
