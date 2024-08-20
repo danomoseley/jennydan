@@ -27,8 +27,7 @@ response = {
         {
             'results': [
                 {
-                    'email': 'danomoseley@gmail.com',
-                    'uuid': 'fe9bc0d7166e4a90bdb6a58efe782ca2'
+                    'email': 'danomoseley@gmail.com'
                 }
             ]
         }
@@ -42,8 +41,6 @@ if response['success']:
         SENDER = "Jenny & Dan's Wedding <hello@jennydan.com>"
         RECIPIENT = result['email']
         SUBJECT = "Share Your Memories With Us!"
-
-        rsvp_uuid = result['uuid']
 
         BODY_TEXT = ( "Thank You!\r\n"
                       "Thanks so much for coming to our wedding! Please share your photo and video memories by uploading them below, so we can experience the weekend over and over.\r\n: "
@@ -436,5 +433,4 @@ if response['success']:
         else:
             print("Email sent!:")
             print(RECIPIENT)
-            print(f"https://www.jennydan.com/meal/{rsvp_uuid}")
             print(response['MessageId'])
