@@ -43,7 +43,7 @@
       span.style.float="left"
       let img = new Image()
       if (file.type.startsWith('video')) {
-        img.src="https://cdn1.iconfinder.com/data/icons/file-types-29/1792/file-movie-1024.png
+        img.src="/video_icon.png"
       } else {
         img.src="https://photos.jennydan.com/"+objectKey
       }
