@@ -55,7 +55,7 @@
           console.error('Failed to get presigned delete URL');
         }
 
-        const { presignedDeleteUrl, objectKey } = getPresignedDeleteUrlResponse.json();
+        const { presignedDeleteUrl, objectKey2 } = getPresignedDeleteUrlResponse.json();
 
         const deleteFromR2Response = fetch(presignedDeleteUrl, {
           method: 'DELETE'
