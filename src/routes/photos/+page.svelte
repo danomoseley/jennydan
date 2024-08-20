@@ -113,6 +113,7 @@
 
 <div id="photos">
   <h2>Share Your Photos!</h2>
+  <p style="margin-bottom:20px;">Thanks for coming to our wedding! Please share your photo memories by uploading them below, so we can experience the weekend over and over.</p>
   <p style="margin-bottom:20px;">When your photos have uploaded successfully they will display below. If you refresh the page the photos will disappear, but don't worry we will still have them!</p>
   <p style="margin-bottom:20px">Do not leave the page until all photos have finished uploading and the loading indicator stops.</p>
   <Fileupload id="multiple_files" multiple bind:files on:change={handleFileUpload} />
