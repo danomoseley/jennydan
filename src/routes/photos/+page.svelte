@@ -33,7 +33,9 @@
 
       if (!uploadToR2Response.ok) {
         console.error('Failed to upload file to R2');
-      } 
+      }
+      
+      console.log(objectKey)
     }
     document.querySelectorAll('.spinner').forEach(e => e.remove());
   };
