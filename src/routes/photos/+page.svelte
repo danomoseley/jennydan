@@ -36,7 +36,7 @@
         console.error('Failed to upload file to R2');
       }
 
-      console.log(objectKey)
+      let span = document.createElement('span')
       let img = new Image()
       img.src="https://photos.jennydan.com/"+objectKey
 
@@ -70,7 +70,8 @@
       img.style.display="inline"
       img.style.padding="10px"
       img.width=100
-      document.getElementById("uploaded_images").prepend(img);
+      span.appendChild(img)
+      document.getElementById("uploaded_images").prepend(span);
     }
     document.getElementById('spinner').style.display='none';
   };
