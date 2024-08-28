@@ -378,8 +378,7 @@ if response['success']:
                             <tr>
                               <td align="center" valign="top" style="padding: 50px 0;">
                                 <p class="lTxt" style="color:#0a080b; margin:0 0 0px;">
-                                  We'll be sending out a gallery with a collection of all of the photos in the weeks to come.<br/>
-                                  We are so happy you could make it to celebrate with us!<br/><br/>
+                                  We'll be sending out a gallery with a collection of all of the photos in the weeks to come. We are so happy you could make it to celebrate with us!<br/><br/>
                                   Jenny & Dan
                                 </p>
                               </td>
