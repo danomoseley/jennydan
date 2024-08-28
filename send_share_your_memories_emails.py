@@ -350,7 +350,7 @@ if response['success']:
                       <!--hero image-->
                       <tr>
                         <td align="center" valign="top">
-                          <a href="https://www.jennydan.com/share-your-memories" target="_blank"><img src="https://www.jennydan.com/img/us-1724859434.jpg" class="fadeimg" width="600" height="280" alt="Dan & Jenny in their NYC neighborhood" style="width: 100%; max-width: 600px; height: auto;" /></a>
+                          <a href="https://www.jennydan.com/share-your-memories" target="_blank"><img src="https://www.jennydan.com/img/us-1724859434.jpg" class="fadeimg" width="600" height="280" alt="Dan & Jenny in front of Otsego Lake on their wedding day." style="width: 100%; max-width: 600px; height: auto;" /></a>
                         </td>
                       </tr>
 
